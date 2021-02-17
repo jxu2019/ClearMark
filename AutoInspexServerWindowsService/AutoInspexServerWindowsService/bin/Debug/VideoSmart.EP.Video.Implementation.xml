@@ -1,0 +1,421 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VideoSmart.EP.Video.Implementation</name>
+    </assembly>
+    <members>
+        <member name="M:VideoSmart.EP.Video.Implementation.VideoSourcePlayerEx.GetCurrentVideoFrame">
+            
+        </member>
+        <member name="F:VideoSmart.EP.Video.Implementation.VideoSourcePlayerEx.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.VideoSourcePlayerEx.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.VideoSourcePlayerEx.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Implementation.ByteArrayUtils">
+            <summary>
+            Some internal utilities for handling arrays.
+            </summary>
+            
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.ByteArrayUtils.Compare(System.Byte[],System.Byte[],System.Int32)">
+            <summary>
+            Check if the array contains needle at specified position.
+            </summary>
+            
+            <param name="array">Source array to check for needle.</param>
+            <param name="needle">Needle we are searching for.</param>
+            <param name="startIndex">Start index in source array.</param>
+            
+            <returns>Returns <b>true</b> if the source array contains the needle at
+            the specified index. Otherwise it returns <b>false</b>.</returns>
+            
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.ByteArrayUtils.Find(System.Byte[],System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Find subarray in the source array.
+            </summary>
+            
+            <param name="array">Source array to search for needle.</param>
+            <param name="needle">Needle we are searching for.</param>
+            <param name="startIndex">Start index in source array.</param>
+            <param name="sourceLength">Number of bytes in source array, where the needle is searched for.</param>
+            
+            <returns>Returns starting position of the needle if it was found or <b>-1</b> otherwise.</returns>
+            
+        </member>
+        <member name="T:VideoSmart.EP.Video.Implementation.VideoException">
+            <summary>
+            Video related exception.
+            </summary>
+            
+            <remarks><para>The exception is thrown in the case of some video related issues, like
+            failure of initializing codec, compression, etc.</para></remarks>
+            
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.VideoException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:VideoSmart.EP.Video.Implementation.VideoException"/> class.
+            </summary>
+            
+            <param name="message">Exception's message.</param>
+            
+        </member>
+        <member name="F:VideoSmart.EP.Video.Implementation.libvlc_video_marquee_option_t.libvlc_marquee_Text">
+            <summary>
+            Marquee text to display.
+            (Available format strings:
+            Time related: %Y = year, %m = month, %d = day, %H = hour,
+            %M = minute, %S = second, ... 
+            Meta data related: $a = artist, $b = album, $c = copyright,
+            $d = description, $e = encoded by, $g = genre,
+            $l = language, $n = track num, $p = now playing,
+            $r = rating, $s = subtitles language, $t = title,
+            $u = url, $A = date,
+            $B = audio bitrate (in kb/s), $C = chapter,
+            $D = duration, $F = full name with path, $I = title,
+            $L = time left,
+            $N = name, $O = audio language, $P = position (in %), $R = rate,
+            $S = audio sample rate (in kHz),
+            $T = time, $U = publisher, $V = volume, $_ = new line) 
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Implementation.libvlc_video_marquee_option_t.libvlc_marquee_Color">
+            <summary>
+            Color of the text that will be rendered on 
+            the video. This must be an hexadecimal (like HTML colors). The first two
+            chars are for red, then green, then blue. #000000 = black, #FF0000 = red,
+             #00FF00 = green, #FFFF00 = yellow (red + green), #FFFFFF = white
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Implementation.libvlc_video_marquee_option_t.libvlc_marquee_Opacity">
+            <summary>
+            Opacity (inverse of transparency) of overlayed text. 0 = transparent, 255 = totally opaque. 
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Implementation.libvlc_video_marquee_option_t.libvlc_marquee_Position">
+            <summary>
+            You can enforce the marquee position on the video.
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Implementation.libvlc_video_marquee_option_t.libvlc_marquee_Refresh">
+            <summary>
+            Number of milliseconds between string updates. This is mainly useful when using meta data or time format string sequences.
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Implementation.libvlc_video_marquee_option_t.libvlc_marquee_Size">
+            <summary>
+            Font size, in pixels. Default is -1 (use default font size).
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Implementation.libvlc_video_marquee_option_t.libvlc_marquee_Timeout">
+            <summary>
+            Number of milliseconds the marquee must remain displayed. Default value is 0 (remains forever).
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Implementation.libvlc_video_marquee_option_t.libvlc_marquee_X">
+            <summary>
+            X offset, from the left screen edge.
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Implementation.libvlc_video_marquee_option_t.libvlc_marquee_Y">
+            <summary>
+            Y offset, down from the top.
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Implementation.libvlc_video_logo_option_t.libvlc_logo_file">
+            <summary>
+            Full path of the image files to use.
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Implementation.libvlc_video_logo_option_t.libvlc_logo_x">
+            <summary>
+            X coordinate of the logo. You can move the logo by left-clicking it.
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Implementation.libvlc_video_logo_option_t.libvlc_logo_y">
+            <summary>
+            Y coordinate of the logo. You can move the logo by left-clicking it.
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Implementation.libvlc_video_logo_option_t.libvlc_logo_delay">
+            <summary>
+            Individual image display time of 0 - 60000 ms.
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Implementation.libvlc_video_logo_option_t.libvlc_logo_repeat">
+            <summary>
+            Number of loops for the logo animation. -1 = continuous, 0 = disabled.
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Implementation.libvlc_video_logo_option_t.libvlc_logo_opacity">
+            <summary>
+            Logo opacity value (from 0 for full transparency to 255 for full opacity).
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Implementation.libvlc_video_logo_option_t.libvlc_logo_position">
+            <summary>
+            Logo position
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Implementation.DisposableBase">
+            <summary>
+            Base class for managing native resources.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.DisposableBase.Dispose">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.DisposableBase.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.DisposableBase.Finalize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.DisposableBase.VerifyObjectNotDisposed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Implementation.LibVlcInitException">
+            <summary>
+            Exception thrown when libVLC initialization failed.
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Implementation.LibVlcNotFoundException">
+            <summary>
+            Exception thrown when one of the vlc libraries are missing.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.Extensions.ToCropFilterString(System.Drawing.Rectangle)">
+            <summary>
+            String format : [width]x[height]+[left offset]+[top offset]
+            </summary>
+            <param name="rect"></param>
+            <returns></returns>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Implementation.LibVlcException">
+            <summary>
+            Throws an exception with the latest error message.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.LibVlcException.#ctor">
+            <summary>
+            Initializes a new instance of the LibVlcException class with the last error that occurred.
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Implementation.MediaPlayerFactory">
+            <summary>
+            Entry point for the nVLC library.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.MediaPlayerFactory.#ctor">
+            <summary>
+            Initializes media library with default arguments
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.MediaPlayerFactory.#ctor(System.String[])">
+            <summary>
+            Initializes media library with user defined arguments
+            </summary>
+            <param name="args">Collection of arguments passed to libVLC library</param>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.MediaPlayerFactory.CreatePlayer``1">
+            <summary>
+            Creates new instance of player.
+            </summary>
+            <typeparam name="T">Type of the player to create</typeparam>
+            <returns>Newly created player</returns>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.MediaPlayerFactory.CreateMedia``1(System.String,System.String[])">
+            <summary>
+            Creates new instance of media.
+            </summary>
+            <typeparam name="T">Type of media to create</typeparam>
+            <param name="input">The media input string</param>
+            <param name="options">Optional media options</param>
+            <returns>Newly created media</returns>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Implementation.MediaPlayerFactory.Version">
+            <summary>
+            Gets the libVLC version.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Implementation.MediaPlayerFactory.AudioFilters">
+            <summary>
+            Gets list of available audio filters
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Implementation.MediaPlayerFactory.VideoFilters">
+            <summary>
+            Gets list of available video filters
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.MemoryHeap.Alloc(System.Int32)">
+            <summary>
+            Allocates a memory block of the given size. The allocated memory is
+            automatically initialized to zero.
+            </summary>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.MemoryHeap.Free(System.Void*)">
+            <summary>
+            Frees a memory block.
+            </summary>
+            <param name="block"></param>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.MemoryHeap.ReAlloc(System.Void*,System.Int32)">
+            <summary>
+            Re-allocates a memory block. If the reallocation request is for a
+            larger size, the additional region of memory is automatically
+            initialized to zero.
+            </summary>
+            <param name="block"></param>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.MemoryHeap.SizeOf(System.Void*)">
+            <summary>
+            Returns the size of a memory block.
+            </summary>
+            <param name="block"></param>
+            <returns></returns>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Implementation.VideoSourcePlayer.BorderColor">
+            <summary>
+            Control's border color.
+            </summary>
+            
+            <remarks><para>Specifies color of the border drawn around video frame.</para></remarks>
+            
+        </member>
+        <member name="P:VideoSmart.EP.Video.Implementation.VideoSourcePlayer.VideoSource">
+            <summary>
+            Video source to play.
+            </summary>
+            
+            <remarks><para>The property sets the video source to play. After setting the property the
+            <see cref="M:VideoSmart.EP.Video.Implementation.VideoSourcePlayer.Start"/> method should be used to start playing the video source.</para>
+            
+            <para><note>Trying to change video source while currently set video source is still playing
+            will generate an exception. Use <see cref="P:VideoSmart.EP.Video.Implementation.VideoSourcePlayer.IsRunning"/> property to check if current video
+            source is still playing or <see cref="M:VideoSmart.EP.Video.Implementation.VideoSourcePlayer.Stop"/> or <see cref="!:SignalToStop"/> and <see cref="!:WaitForStop"/>
+            methods to stop current video source.</note></para>
+            </remarks>
+            
+            <exception cref="T:System.Exception">Video source can not be changed while current video source is still running.</exception>
+            
+        </member>
+        <member name="P:VideoSmart.EP.Video.Implementation.VideoSourcePlayer.IsRunning">
+            <summary>
+            State of the current video source.
+            </summary>
+            
+            <remarks><para>Current state of the current video source object - running or not.</para></remarks>
+            
+        </member>
+        <member name="T:VideoSmart.EP.Video.Implementation.VideoSourcePlayer.NewFrameHandler">
+            <summary>
+            Delegate to notify about new frame.
+            </summary>
+            
+            <param name="sender">Event sender.</param>
+            <param name="image">New frame.</param>
+            
+        </member>
+        <member name="E:VideoSmart.EP.Video.Implementation.VideoSourcePlayer.NewFrame">
+            <summary>
+            New frame event.
+            </summary>
+            
+            <remarks><para>The event is fired on each new frame received from video source. The
+            event is fired right after receiving and before displaying, what gives user a chance to
+            perform some image processing on the new frame and/or update it.</para>
+            
+            <para><note>Users should not keep references of the passed to the event handler image.
+            If user needs to keep the image, it should be cloned, since the original image will be disposed
+            by the control when it is required.</note></para>
+            </remarks>
+            
+        </member>
+        <member name="E:VideoSmart.EP.Video.Implementation.VideoSourcePlayer.PlayingFinished">
+            <summary>
+            Playing finished event.
+            </summary>
+            
+            <remarks><para>The event is fired when/if video playing finishes. The reason of video
+            stopping is provided as an argument to the event handler.</para></remarks>
+            
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.VideoSourcePlayer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:VideoSmart.EP.Video.Implementation.VideoSourcePlayer"/> class.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.VideoSourcePlayer.Start">
+            <summary>
+            Start video source and displaying its frames.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.VideoSourcePlayer.Stop">
+            <summary>
+            Stop video source.
+            </summary>
+            
+            <remarks><para>The method stops video source by calling its <see cref="!:AForge.Video.IVideoSource.Stop"/>
+            method, which abourts internal video source's thread. Use <see cref="!:SignalToStop"/> and
+            <see cref="!:WaitForStop"/> for more polite video source stopping, which gives a chance for
+            video source to perform proper shut down and clean up.
+            </para></remarks>
+            
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.VideoSourcePlayer.GetCurrentVideoFrame">
+            <summary>
+            Get clone of current video frame displayed by the control.
+            </summary>
+            
+            <returns>Returns clone of the video frame, which is currently displayed
+            by the control - the last video frame received from video source. If the
+            control did not receive any video frames yet, then the method returns
+            <see langword="null"/>.</returns>
+            
+        </member>
+        <member name="F:VideoSmart.EP.Video.Implementation.VideoSourcePlayer.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.VideoSourcePlayer.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Implementation.VideoSourcePlayer.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

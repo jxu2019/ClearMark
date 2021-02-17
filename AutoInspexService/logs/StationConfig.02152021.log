@@ -1,0 +1,35 @@
+2021-02-15 14:55:07,315: INFO  <7> [RaspBerryPIController] - update PICameras set HousingID='234523',IPAddress='192.168.0.1',LensID='1',SensorID='1',PiOSVersion='PI 4',OS_ID='1',PiVersion='Raspbian 15',TimeStamp='2/15/2021 2:55:05 PM',Status='Active', AutoInspexID='90212-3-1-32-5' where SerialNumber='q23452345'
+2021-02-15 18:07:05,615: INFO  <7> [RaspBerryPIController] - insert into PICameras (HousingID,IPAddress,SensorID,PiVersion,PiOSVersion,LensID,OS_ID,SerialNumber,Status,AutoInspexID) values('234523','192.168.0.1','1','Raspbian 15','PI 4','LensID'','OS_ID'','SerialNumber'','Status'','AutoInspexID')
+2021-02-15 18:07:05,740: ERROR <7> [RaspBerryPIController] - SQL logic error
+near "OS_ID": syntax error
+code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+near "OS_ID": syntax error
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2813
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 572
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 443
+   at AutoInspexService.Controllers.RaspBerryPIController.Post(JObject data) in C:\Users\jxu2\Desktop\ClearMark\AutoInspexService\Controllers\RaspBerryPIController.cs:line 185
+2021-02-16 07:32:55,686: INFO  <16> [RaspBerryPIController] - insert into PICameras (HousingID,IPAddress,SensorID,PiVersion,PiOSVersion,LensID,OS_ID,SerialNumber,Status,AutoInspexID) values('234523','192.168.0.1','1','Raspbian 15','PI 4','LensID'','OS_ID'','SerialNumber'','Status'','AutoInspexID')
+2021-02-16 07:33:36,321: ERROR <16> [RaspBerryPIController] - SQL logic error
+near "OS_ID": syntax error
+code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+near "OS_ID": syntax error
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2813
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 572
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 443
+   at AutoInspexService.Controllers.RaspBerryPIController.Post(JObject data) in C:\Users\jxu2\Desktop\ClearMark\AutoInspexService\Controllers\RaspBerryPIController.cs:line 185

@@ -1,0 +1,56 @@
+﻿<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>AutoPix Camera Management</title>
+
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.3.1118/styles/kendo.mobile.all.min.css">
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2021.1.119/styles/kendo.default-v2.min.css" />
+    <link rel="stylesheet" href="examples-offline.css">
+    <script>if (window.module) module = window.module;</script>
+    <style>
+        .loader {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 450px;
+        }
+    </style>
+</head>
+
+<body>
+    <br />
+    <br />
+    <h2 style="margin-left:20px;">AutoPix Cameras</h2>
+    <div id="example" align="center">
+        <div id="grid"  style="margin-left:20px;"></div>
+        <div id="window"></div>
+    </div>
+
+    <style type="text/css">
+        @media screen and (max-width: 1023px) {
+            div.k-window {
+                display: none !important;
+            }
+        }
+
+        .k-grid .k-grid-search {
+            margin-left: auto;
+            margin-right: 0;
+        }
+
+        .k-window div.k-window-content {
+            overflow: hidden;
+        }
+    </style>
+
+    <script>if (typeof module === 'object') { window.module = module; module = undefined; }</script>
+    <script src="https://kendo.cdn.telerik.com/2021.1.119/js/jquery.min.js"></script>
+    <script>window.jQuery = window.$ = typeof module === 'object' ? module.exports : jQuery</script>
+    <script src="https://kendo.cdn.telerik.com/2021.1.119/js/kendo.all.min.js"></script>
+    <script src="console.js"></script>
+    <script src="render.js"></script>
+
+</body>
+
+</html>

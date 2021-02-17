@@ -1,0 +1,20 @@
+2021-02-03 10:39:12,682: ERROR <6> [RaspBerryPIController] - Invalid ConnectionString format for part "C:\AutoInspexService\/AutoInspexCamerasDB.db", no equal sign found
+System.ArgumentException: Invalid ConnectionString format for part "C:\AutoInspexService\/AutoInspexCamerasDB.db", no equal sign found
+   at System.Data.SQLite.SQLiteConnection.ParseConnectionString(SQLiteConnection connection, String connectionString, Boolean allowNameOnly)
+   at System.Data.SQLite.SQLiteConnection.ParseConnectionString(SQLiteConnection connection, String connectionString, Boolean parseViaFramework, Boolean allowNameOnly)
+   at System.Data.SQLite.SQLiteConnection.Open()
+   at Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() in /_/Dapper/SqlMapper.cs:line 1082
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 725
+   at AutoInspexService.Controllers.RaspBerryPIController.GetPICameras() in C:\AutoInspexService\Controllers\RaspBerryPIController.cs:line 54
+2021-02-03 10:41:00,302: ERROR <8> [RaspBerryPIController] - Invalid ConnectionString format for part "C:\AutoInspexService\AutoInspexCamerasDB.db", no equal sign found
+System.ArgumentException: Invalid ConnectionString format for part "C:\AutoInspexService\AutoInspexCamerasDB.db", no equal sign found
+   at System.Data.SQLite.SQLiteConnection.ParseConnectionString(SQLiteConnection connection, String connectionString, Boolean allowNameOnly)
+   at System.Data.SQLite.SQLiteConnection.ParseConnectionString(SQLiteConnection connection, String connectionString, Boolean parseViaFramework, Boolean allowNameOnly)
+   at System.Data.SQLite.SQLiteConnection.Open()
+   at Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() in /_/Dapper/SqlMapper.cs:line 1082
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 725
+   at AutoInspexService.Controllers.RaspBerryPIController.GetPICameras() in C:\AutoInspexService\Controllers\RaspBerryPIController.cs:line 54

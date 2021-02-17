@@ -1,0 +1,1701 @@
+[9] 02/16/2021 00:09:02 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"all","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[9] 02/16/2021 00:09:04 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[9] 02/16/2021 00:09:04 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[9] 02/16/2021 00:09:05 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "15", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.15.jpg"}
+
+[9] 02/16/2021 00:09:23 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 3"
+}
+
+[9] 02/16/2021 00:09:44 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 4"
+}
+
+[16] 02/16/2021 07:08:38 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"all","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[16] 02/16/2021 07:08:40 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[16] 02/16/2021 07:08:43 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "15", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.15.jpg"}
+
+[16] 02/16/2021 07:08:45 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[16] 02/16/2021 07:08:53 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"all","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[16] 02/16/2021 07:08:55 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[17] 02/16/2021 07:08:57 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "15", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.15.jpg"}
+
+[17] 02/16/2021 07:09:00 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 3"
+}
+
+[17] 02/16/2021 07:09:00 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[17] 02/16/2021 07:09:08 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"all","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[17] 02/16/2021 07:09:10 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[17] 02/16/2021 07:09:13 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "15", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.15.jpg"}
+
+[17] 02/16/2021 07:09:14 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[17] 02/16/2021 07:09:14 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 3"
+}
+
+[17] 02/16/2021 07:09:21 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 4"
+}
+
+[17] 02/16/2021 07:09:30 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 3"
+}
+
+[18] 02/16/2021 07:09:35 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 4"
+}
+
+[18] 02/16/2021 07:09:51 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 4"
+}
+
+[18] 02/16/2021 07:11:54 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"all","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[18] 02/16/2021 07:11:56 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[18] 02/16/2021 07:11:58 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "15", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.15.jpg"}
+
+[18] 02/16/2021 07:12:02 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[18] 02/16/2021 07:12:16 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 3"
+}
+
+[5] 02/16/2021 07:12:37 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 4"
+}
+
+[19] 02/16/2021 07:27:33 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"all","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[19] 02/16/2021 07:27:35 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[19] 02/16/2021 07:27:40 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[19] 02/16/2021 07:27:42 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "15", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.15.jpg"}
+
+[19] 02/16/2021 07:27:54 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 3"
+}
+
+[20] 02/16/2021 07:28:16 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 4"
+}
+
+[21] 02/16/2021 07:31:29 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 6044116
+
+[22] 02/16/2021 07:32:19 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 48209832; Message:Host: 192.168.0.9:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: g3Y3Ze+fSaotRJyHhwO3xg==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[22] 02/16/2021 07:32:19 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 48209832
+
+[22] 02/16/2021 07:40:27 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 48209832
+
+[22] 02/16/2021 07:40:32 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 5773521; Message:Host: 192.168.0.9:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: 7LFs3pPvpANtLboRtk24Qw==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[22] 02/16/2021 07:40:32 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 5773521
+
+[22] 02/16/2021 07:42:27 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 5773521
+
+[22] 02/16/2021 07:42:32 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 54135081; Message:Host: 192.168.0.9:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: gk0TAotvZP+nda4TId796g==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[22] 02/16/2021 07:42:32 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 54135081
+
+[22] 02/16/2021 07:43:24 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 54135081
+
+[24] 02/16/2021 07:47:59 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 63094882; Message:Host: 192.168.0.9:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: MlNyykckgWncBJiYzEoJzg==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[24] 02/16/2021 07:47:59 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 63094882
+
+[24] 02/16/2021 07:48:46 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 63094882
+
+[24] 02/16/2021 07:48:51 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 49924125; Message:Host: 192.168.0.9:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: ZYPQt2WbMd2R+FZVnSkIYw==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[24] 02/16/2021 07:48:51 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 49924125
+
+[24] 02/16/2021 07:54:19 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 49924125
+
+[24] 02/16/2021 07:54:23 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 41773672; Message:Host: 192.168.0.9:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: xqlzYUHlZoRU1u+rAeP+FA==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[24] 02/16/2021 07:54:23 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 41773672
+
+[24] 02/16/2021 07:55:42 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 41773672
+
+[24] 02/16/2021 07:58:16 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 4831898; Message:Host: 192.168.0.9:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: UBc3s0lrsXzcszpi9vz5Cw==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[24] 02/16/2021 07:58:16 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 4831898
+
+[32] 02/16/2021 07:58:59 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 4831898
+
+[32] 02/16/2021 07:59:10 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 34361009; Message:Host: 192.168.0.9:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: PSe8hFGwTx/94hP/Gg0+jA==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[32] 02/16/2021 07:59:10 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 34361009
+
+[32] 02/16/2021 08:00:25 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 34361009
+
+[30] 02/16/2021 08:00:30 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 50492551; Message:Host: 192.168.0.9:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: tGil9y8uIjMMNBWBR2+9dA==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[30] 02/16/2021 08:00:30 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 50492551
+
+[30] 02/16/2021 08:05:20 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 50492551
+
+[30] 02/16/2021 08:05:25 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 53710617; Message:Host: 192.168.0.9:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: PBL144+uF5+QHx75GfXoJw==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[30] 02/16/2021 08:05:25 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 53710617
+
+[30] 02/16/2021 08:09:01 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 53710617
+
+[30] 02/16/2021 08:09:06 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 54181145; Message:Host: 192.168.0.9:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: DskP4bdI3Zx1XV7B8M73ww==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[30] 02/16/2021 08:09:06 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 54181145
+
+[30] 02/16/2021 08:09:58 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 54181145
+
+[30] 02/16/2021 08:10:04 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 64062224; Message:Host: 192.168.0.9:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: qh4uuzQ+d7yTHVUK1vC4BQ==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[30] 02/16/2021 08:10:04 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 64062224
+
+[30] 02/16/2021 08:16:37 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 64062224
+
+[30] 02/16/2021 08:16:55 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 3129430; Message:Host: 192.168.0.9:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: aRTJhoaBtQ8zIkL5UllM1A==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[30] 02/16/2021 08:16:55 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 3129430
+
+[30] 02/16/2021 08:17:12 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 3129430
+
+[23] 02/16/2021 08:17:17 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 65718035; Message:Host: 192.168.0.9:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: tJ4S97SzX4USeFGTJO8Gow==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[23] 02/16/2021 08:17:17 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 65718035
+
+[23] 02/16/2021 08:18:57 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 65718035
+
+[23] 02/16/2021 08:19:10 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 37901460; Message:Host: 192.168.0.9:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: lGHcx1esy8UocQXJ5Tuizg==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[23] 02/16/2021 08:19:10 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 37901460
+
+[23] 02/16/2021 08:19:45 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 37901460
+
+[23] 02/16/2021 08:20:11 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 57733168; Message:Host: 192.168.0.9:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: UprTMZNQmbXUW9yyfgTcgA==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[23] 02/16/2021 08:20:11 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 57733168
+
+[19] 02/16/2021 08:26:39 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 57733168
+
+[19] 02/16/2021 08:28:50 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 4436986; Message:Host: 192.168.0.9:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: cvRaSo8Mclwvz0hiyCZ/wQ==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[19] 02/16/2021 08:28:50 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 4436986
+
+[19] 02/16/2021 08:29:10 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 4436986
+
+[19] 02/16/2021 08:29:17 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"all","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[19] 02/16/2021 08:29:38 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 26067845; Message:Host: 192.168.0.9:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: xGM9vhFYWHJLNbDJz9dhEg==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[19] 02/16/2021 08:29:38 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 26067845
+
+[20] 02/16/2021 08:29:41 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"all","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[20] 02/16/2021 08:29:45 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[20] 02/16/2021 08:29:48 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "15", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.15.jpg"}
+
+[20] 02/16/2021 08:29:50 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[20] 02/16/2021 08:30:04 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 3"
+}
+
+[20] 02/16/2021 08:30:25 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 4"
+}
+
+[20] 02/16/2021 08:30:25 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[20] 02/16/2021 08:30:25 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[20] 02/16/2021 08:30:25 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[20] 02/16/2021 08:41:37 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"all","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[20] 02/16/2021 08:41:40 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[20] 02/16/2021 08:41:43 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "15", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.15.jpg"}
+
+[20] 02/16/2021 08:41:50 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[20] 02/16/2021 08:41:59 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 3"
+}
+
+[22] 02/16/2021 08:42:20 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 4"
+}
+
+[22] 02/16/2021 08:42:20 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[22] 02/16/2021 08:42:20 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[22] 02/16/2021 08:42:20 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[22] 02/16/2021 08:44:17 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"10,15,19","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[22] 02/16/2021 08:44:19 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[22] 02/16/2021 08:44:23 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[22] 02/16/2021 08:50:00 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"all","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[22] 02/16/2021 08:50:03 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[22] 02/16/2021 08:50:05 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[22] 02/16/2021 08:50:21 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 3"
+}
+
+[21] 02/16/2021 08:50:43 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 4"
+}
+
+[21] 02/16/2021 08:50:43 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[21] 02/16/2021 08:50:43 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[21] 02/16/2021 08:50:43 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[21] 02/16/2021 08:50:48 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"10,15,19","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[21] 02/16/2021 08:50:50 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[21] 02/16/2021 08:50:53 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[21] 02/16/2021 08:52:53 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"10,15,19","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[21] 02/16/2021 08:52:55 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[21] 02/16/2021 08:53:01 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[21] 02/16/2021 08:55:44 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"10,15,19","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[26] 02/16/2021 08:55:46 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[26] 02/16/2021 08:55:49 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "15", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.15.jpg"}
+
+[26] 02/16/2021 08:55:50 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[26] 02/16/2021 09:17:23 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"all","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[23] 02/16/2021 09:17:26 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[23] 02/16/2021 09:17:30 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[23] 02/16/2021 09:17:30 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "15", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.15.jpg"}
+
+[23] 02/16/2021 09:17:45 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 3"
+}
+
+[23] 02/16/2021 09:18:06 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 4"
+}
+
+[21] 02/16/2021 09:18:27 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 5"
+}
+
+[21] 02/16/2021 09:18:27 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[21] 02/16/2021 09:18:27 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[21] 02/16/2021 09:18:27 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[21] 02/16/2021 09:19:56 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"10,15,19","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[22] 02/16/2021 09:19:58 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[22] 02/16/2021 09:20:01 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "15", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.15.jpg"}
+
+[22] 02/16/2021 09:20:05 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[22] 02/16/2021 09:24:17 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"19","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[20] 02/16/2021 09:24:23 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[20] 02/16/2021 09:30:19 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"10","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[5] 02/16/2021 09:30:21 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[5] 02/16/2021 09:38:22 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"10","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[25] 02/16/2021 09:38:25 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[25] 02/16/2021 09:38:30 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"19","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[25] 02/16/2021 09:38:33 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[25] 02/16/2021 09:39:34 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"19","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[24] 02/16/2021 09:40:12 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"19","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[29] 02/16/2021 09:40:14 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.19asdfd.jpg"}
+
+[29] 02/16/2021 10:21:02 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"19","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[27] 02/16/2021 10:21:04 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/26942.90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[27] 02/16/2021 10:22:35 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"19","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[31] 02/16/2021 10:22:37 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/5614919955.90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[31] 02/16/2021 10:24:28 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"19","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[30] 02/16/2021 10:24:30 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/9962557643.90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[30] 02/16/2021 10:51:25 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 59817589
+
+[28] 02/16/2021 10:51:47 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 10553853; Message:Host: localhost:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: pRQWdPX9d7K/2v80pYwJYQ==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[28] 02/16/2021 10:51:47 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 10553853
+
+[9] 02/16/2021 10:52:05 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :10553853;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"all","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[10] 02/16/2021 10:52:07 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "10553853", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/7068153199.90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[9] 02/16/2021 10:52:08 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "10553853", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[9] 02/16/2021 10:52:09 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "15", "inspexIQConnectionId": "10553853", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.15.jpg"}
+
+[9] 02/16/2021 10:52:27 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "10553853",
+  "error": "Unable to connect to the camera at postion 3"
+}
+
+[15] 02/16/2021 10:52:48 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "10553853",
+  "error": "Unable to connect to the camera at postion 4"
+}
+
+[15] 02/16/2021 10:53:09 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "10553853",
+  "error": "Unable to connect to the camera at postion 5"
+}
+
+[15] 02/16/2021 10:53:09 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "10553853",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[15] 02/16/2021 10:53:09 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "10553853",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[15] 02/16/2021 10:53:09 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "10553853",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[15] 02/16/2021 12:49:16 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :10553853;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"all","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[15] 02/16/2021 13:05:43 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :10553853;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"all","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[15] 02/16/2021 13:05:58 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "10553853", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/2279181077.90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[15] 02/16/2021 13:05:59 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "10553853", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[8] 02/16/2021 13:06:17 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "10553853",
+  "error": "Unable to connect to the camera at postion 3"
+}
+
+[8] 02/16/2021 13:06:32 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :10553853;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"15","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[8] 02/16/2021 13:06:38 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "10553853",
+  "error": "Unable to connect to the camera at postion 4"
+}
+
+[10] 02/16/2021 13:07:00 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "10553853",
+  "error": "Unable to connect to the camera at postion 5"
+}
+
+[10] 02/16/2021 13:07:00 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "10553853",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[10] 02/16/2021 13:07:00 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "10553853",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[10] 02/16/2021 13:07:00 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :26067845;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "10553853",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[10] 02/16/2021 13:08:56 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :10553853;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"15","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[10] 02/16/2021 13:09:21 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 10553853
+
+[10] 02/16/2021 13:09:29 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 26067845
+
+[1] 02/16/2021 13:09:41 DEBUG [AutoInspexWindowsService.RunConsole] - Start AutoPix WebSocket Server Windows Service...
+
+[1] 02/16/2021 13:09:42 DEBUG [AutoInspexWindowsService.OnStart] -  AutoPix WebSocket Server Windows Service was successfully started.
+
+[3] 02/16/2021 13:09:49 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 6044116; Message:Host: 192.168.0.9:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: VTj5T13otA0ONoAjINXORA==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[3] 02/16/2021 13:09:49 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 6044116
+
+[3] 02/16/2021 13:10:09 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 59817589; Message:Host: localhost:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: 0hD2fTUozcaVf5/Xcnz1qQ==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[3] 02/16/2021 13:10:09 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 59817589
+
+[3] 02/16/2021 13:10:16 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"15","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[3] 02/16/2021 13:10:38 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "15",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 15"
+}
+
+[7] 02/16/2021 13:11:43 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"15","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[7] 02/16/2021 13:12:04 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "15",
+  "inspexIQConnectionId": "59817589",
+  "error": "Unable to connect to the camera at postion 15"
+}
+
+[8] 02/16/2021 13:15:01 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"15","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[9] 02/16/2021 13:15:04 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "15", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.15.jpg"}
+
+[9] 02/16/2021 13:18:41 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :59817589;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"15","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[9] 02/16/2021 13:18:44 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "15", "inspexIQConnectionId": "59817589", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.15.jpg"}
+
+[9] 02/16/2021 13:19:20 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 59817589
+
+[9] 02/16/2021 13:20:15 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 48209832; Message:Host: localhost:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: BWbw1IXPTlP5A1QyQRih9g==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[9] 02/16/2021 13:20:15 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 48209832
+
+[12] 02/16/2021 13:20:16 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :48209832;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"all","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[12] 02/16/2021 13:20:20 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "48209832", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/1295619747.90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[12] 02/16/2021 13:20:22 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "15", "inspexIQConnectionId": "48209832", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.15.jpg"}
+
+[12] 02/16/2021 13:20:38 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 3"
+}
+
+[11] 02/16/2021 13:20:59 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 4"
+}
+
+[11] 02/16/2021 13:21:20 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 5"
+}
+
+[11] 02/16/2021 13:21:20 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[11] 02/16/2021 13:21:20 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[11] 02/16/2021 13:21:20 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[8] 02/16/2021 13:21:30 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :48209832;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[8] 02/16/2021 13:21:30 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "",
+  "inspexIQConnectionId": "48209832",
+  "error": "No camera found to take pictures. Please check the sequenceNo"
+}
+
+[8] 02/16/2021 13:21:40 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :48209832;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"all","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[7] 02/16/2021 13:21:42 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "48209832", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/4439764782.90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[7] 02/16/2021 13:21:44 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "15", "inspexIQConnectionId": "48209832", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.15.jpg"}
+
+[7] 02/16/2021 13:22:02 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 3"
+}
+
+[6] 02/16/2021 13:22:23 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 4"
+}
+
+[6] 02/16/2021 13:22:44 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 5"
+}
+
+[6] 02/16/2021 13:22:44 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[6] 02/16/2021 13:22:44 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[6] 02/16/2021 13:22:44 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[6] 02/16/2021 13:56:29 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :48209832;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"all","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[6] 02/16/2021 13:56:32 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "48209832", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/6546109065.90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[6] 02/16/2021 13:56:33 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "48209832", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[6] 02/16/2021 13:56:33 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "15", "inspexIQConnectionId": "48209832", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.15.jpg"}
+
+[6] 02/16/2021 13:56:50 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 3"
+}
+
+[5] 02/16/2021 13:57:07 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :48209832;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"all","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[5] 02/16/2021 13:57:11 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "15", "inspexIQConnectionId": "48209832", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.15.jpg"}
+
+[5] 02/16/2021 13:57:11 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 4"
+}
+
+[5] 02/16/2021 13:57:11 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "48209832", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[5] 02/16/2021 13:57:12 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "48209832", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/0431834490.90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[5] 02/16/2021 13:57:28 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 3"
+}
+
+[5] 02/16/2021 13:57:32 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 5"
+}
+
+[5] 02/16/2021 13:57:32 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[5] 02/16/2021 13:57:32 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[5] 02/16/2021 13:57:32 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[5] 02/16/2021 13:57:49 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 4"
+}
+
+[5] 02/16/2021 13:58:10 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 5"
+}
+
+[5] 02/16/2021 13:58:10 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[5] 02/16/2021 13:58:10 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[5] 02/16/2021 13:58:10 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "48209832",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[5] 02/16/2021 14:02:36 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 48209832
+
+[3] 02/16/2021 15:45:53 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 5773521; Message:Host: localhost:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: QirRwFOYcXtWU6w6Dtt0sQ==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[3] 02/16/2021 15:45:53 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 5773521
+
+[3] 02/16/2021 15:45:55 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :5773521;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"all","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[3] 02/16/2021 15:46:02 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "5773521", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/7329686918.90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[3] 02/16/2021 15:46:02 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "5773521", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/4120021386.90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[3] 02/16/2021 15:46:04 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "15", "inspexIQConnectionId": "5773521", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/90212-3-1-32-5.WBA3B1C53EK132571.15.jpg"}
+
+[3] 02/16/2021 15:46:16 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "5773521",
+  "error": "Unable to connect to the camera at postion 3"
+}
+
+[3] 02/16/2021 15:46:37 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "5773521",
+  "error": "Unable to connect to the camera at postion 4"
+}
+
+[5] 02/16/2021 15:46:58 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "5773521",
+  "error": "Unable to connect to the camera at postion 5"
+}
+
+[5] 02/16/2021 15:46:58 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "5773521",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[5] 02/16/2021 15:46:58 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "5773521",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[5] 02/16/2021 15:46:58 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "5773521",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[5] 02/16/2021 18:14:24 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :5773521;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"all","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[5] 02/16/2021 18:14:27 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "10", "inspexIQConnectionId": "5773521", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/1645295736.90212-3-1-32-5.WBA3B1C53EK132571.10.jpg"}
+
+[5] 02/16/2021 18:14:27 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "5773521", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/3390625747.90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[5] 02/16/2021 18:14:46 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "5773521",
+  "error": "Unable to connect to the camera at postion 3"
+}
+
+[6] 02/16/2021 18:14:58 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :5773521;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"15","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[6] 02/16/2021 18:15:07 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "5773521",
+  "error": "Unable to connect to the camera at postion 4"
+}
+
+[7] 02/16/2021 18:15:28 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "5773521",
+  "error": "Unable to connect to the camera at postion 5"
+}
+
+[7] 02/16/2021 18:15:28 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "5773521",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[7] 02/16/2021 18:15:28 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "5773521",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[7] 02/16/2021 18:15:28 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "all",
+  "inspexIQConnectionId": "5773521",
+  "error": "Unable to connect to the camera at postion 23"
+}
+
+[7] 02/16/2021 18:15:50 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :5773521;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"15","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[7] 02/16/2021 18:26:09 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :5773521;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"19","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[7] 02/16/2021 18:26:11 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {"vinCode": "WBA3B1C53EK132571", "vehicleId": "198783", "autoInspexID": "90212-3-1-32-5", "uuid": "FD012F881A10439595E0F7239E54EE35", "sequenceNo": "19", "inspexIQConnectionId": "5773521", "image_url": "http://res.cloudinary.com/carpixstaging/image/upload/v1/stagingwholesaleWBA3B1C53EK132571198783autopixFD012F881A10439595E0F7239E54EE35/3497275160.90212-3-1-32-5.WBA3B1C53EK132571.19.jpg"}
+
+[7] 02/16/2021 18:26:18 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :5773521;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"15","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[7] 02/16/2021 18:39:57 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :5773521;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"15","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[7] 02/16/2021 18:40:42 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :5773521;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"15","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[8] 02/16/2021 20:15:29 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :5773521;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"15","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[8] 02/16/2021 20:15:32 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "15",
+  "inspexIQConnectionId": "5773521",
+  "error": "Unable to connect to the camera at postion 15"
+}
+
+[8] 02/16/2021 20:25:58 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :5773521;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"15","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[8] 02/16/2021 20:26:00 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "15",
+  "inspexIQConnectionId": "5773521",
+  "error": "Unable to connect to the camera at postion 15"
+}
+
+[8] 02/16/2021 20:26:49 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :5773521;Data: {"serviceType":"staging","sellingMethod":"wholesale","vinCode":"WBA3B1C53EK132571","vehicleId":"198783","imageType":"autopix","autoInspexID":"90212-3-1-32-5","sequenceNo":"15","uuid":"FD012F881A10439595E0F7239E54EE35"}
+
+[8] 02/16/2021 20:26:51 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDataIn] - Received Data From :6044116;Data: {
+  "serviceType": "staging",
+  "sellingMethod": "wholesale",
+  "vinCode": "WBA3B1C53EK132571",
+  "vehicleId": "198783",
+  "autoInspexID": "90212-3-1-32-5",
+  "uuid": "FD012F881A10439595E0F7239E54EE35",
+  "imageType": "autopix",
+  "sequenceNo": "15",
+  "inspexIQConnectionId": "5773521",
+  "error": "Unable to connect to the camera at postion 15"
+}
+

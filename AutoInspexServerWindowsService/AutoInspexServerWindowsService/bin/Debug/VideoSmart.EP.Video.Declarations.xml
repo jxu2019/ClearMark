@@ -1,0 +1,925 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VideoSmart.EP.Video.Declarations</name>
+    </assembly>
+    <members>
+        <member name="T:VideoSmart.EP.Video.Declarations.NewFrameEventHandler">
+            <summary>
+            Represents a callback method that will handle each frame in video sequence as System.Drawing.Bitmap object.
+            </summary>
+            <param name="frame">New frame to display</param>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.NewSoundEventHandler">
+            <summary>
+            Represents a callback method which handles audio samples
+            </summary>
+            <param name="newSound"></param>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.VolumeChangedEventHandler">
+            <summary>
+            Represents a callback method which handles change in volume or mute values
+            </summary>
+            <param name="volume"></param>
+            <param name="mute"></param>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.AudioCallbacks">
+            <summary>
+            Container for custom audio processing callbacks
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.AudioCallbacks.VolumeCallback">
+            <summary>
+            Callback method for handling volume and mute properties change
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.AudioCallbacks.SoundCallback">
+            <summary>
+            Callback method for handling PCM samples
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.AudioCallbacks.PauseCallback">
+            <summary>
+            Callback method called when media player switches to Pause state
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.AudioCallbacks.ResumeCallback">
+            <summary>
+            Callback method called when media player switches to Playback state
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.AudioCallbacks.FlushCallback">
+            <summary>
+            Callback method called when all pending buffers should be discarded
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.AudioCallbacks.DrainCallback">
+            <summary>
+            Callback method called when all pending buffers must be played
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.AspectRatioMode">
+            <summary>
+            Available video aspect ratio modes
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.AspectRatioMode.Default">
+            <summary>
+            Default aspect ratio of the frame
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.AspectRatioMode.Mode1">
+            <summary>
+            1:1
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.AspectRatioMode.Mode2">
+            <summary>
+            4:3
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.AspectRatioMode.Mode3">
+            <summary>
+            16:0
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.AspectRatioMode.Mode4">
+            <summary>
+            16:10
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.AspectRatioMode.Mode5">
+            <summary>
+            2.21:1
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.AspectRatioMode.Mode6">
+            <summary>
+            2.35:1
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.AspectRatioMode.Mode7">
+            <summary>
+            2:39:1
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.AspectRatioMode.Mode8">
+            <summary>
+            5:4
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.ChromaType">
+            <summary>
+            VLC pixel formats
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.ChromaType.RV15">
+            <summary>
+            5 bit for each RGB channel
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.ChromaType.RV16">
+            <summary>
+            5 bit Red, 6 bit Green and 5 bit Blue
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.ChromaType.RV24">
+            <summary>
+            8 bit per channel
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.ChromaType.RV32">
+            <summary>
+            8 bit per RGB channel and 8 bit unused
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.ChromaType.RGBA">
+            <summary>
+            8 bit per each RGBA channel
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.ChromaType.YV12">
+            <summary>
+            12 bits per pixel planar format with Y plane followed by V and U planes
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.ChromaType.I420">
+            <summary>
+            Same as YV12 but V and U are swapped
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.ChromaType.NV12">
+            <summary>
+            12 bits per pixel planar format with Y plane and interleaved UV plane
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.ChromaType.YUY2">
+            <summary>
+            16 bits per pixel packed YUYV array
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.ChromaType.UYVY">
+            <summary>
+            16 bits per pixel packed UYVY array 
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.NavigationMode">
+            <summary>
+            DVD menun avigation options
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.SoundType">
+            <summary>
+            VLC sound formats
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.SoundType.S16N">
+            <summary>
+            16 bits per sample
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.TrackType">
+            <summary>
+            Represents media track type
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.DeinterlaceMode">
+            <summary>
+            Available deinterlace algorithms.
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.IMediaListEvents">
+            <summary>
+            Events raised by IMediaList object
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.IMediaListPlayerEvents">
+            <summary>
+            Events raised by IMediaListPlayer object
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.FilterInfo">
+            <summary>
+            Information structure for audio and video filters
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.IAdjustFilter">
+            <summary>
+            Manages video adjustment parameters.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IAdjustFilter.Enabled">
+            <summary>
+            Enables or disables video adjust filter.
+            </summary>          
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IAdjustFilter.Contrast">
+            <summary>
+            Image contrast in the 0-2 range.
+            </summary>          
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IAdjustFilter.Brightness">
+            <summary>
+            Image brightness in the 0-2 range.
+            </summary>       
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IAdjustFilter.Hue">
+            <summary>
+            Image hue in the 0-360 range
+            </summary>    
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IAdjustFilter.Saturation">
+            <summary>
+            Image saturation in the 0-3 range.
+            </summary>   
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IAdjustFilter.Gamma">
+            <summary>
+            Image gamma in the 0-10 range.
+            </summary>    
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.MediaStatistics">
+            <summary>
+            Data strcuture containing media statistics' parameters.
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.MediaTrackInfo">
+            <summary>
+            Data structure containing parameters of elementary media stream
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.IAudioPlayer">
+            <summary>
+            Player for audio only media
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IAudioPlayer.Volume">
+            <summary>
+            Gets or sets the volume (0-100) of the player.
+            Initial value is 50
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IAudioPlayer.Mute">
+            <summary>
+            Sets or gets boolean indictaion whether the sound is on or off.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IAudioPlayer.Delay">
+            <summary>
+            Gets or sets the audio delay in milliseconds.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IAudioPlayer.Channel">
+            <summary>
+            Sets or gets the audio channel type
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IAudioPlayer.ToggleMute">
+            <summary>
+            Toggles mute/unmute
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IAudioPlayer.CustomAudioRenderer">
+            <summary>
+            Gets custom audio renderer for processing PCM samples 
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.IDeinterlaceFilter">
+            <summary>
+            Manages deinterlacing functionality.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IDeinterlaceFilter.Enabled">
+            <summary>
+            Enables or disables deinterlacing
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IDeinterlaceFilter.Mode">
+            <summary>
+            Gets or sets deinterlace algorithm
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.IAudioRenderer">
+            <summary>
+            Enables custom processing of audio samples
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IAudioRenderer.SetCallbacks(VideoSmart.EP.Video.Declarations.VolumeChangedEventHandler,VideoSmart.EP.Video.Declarations.NewSoundEventHandler)">
+            <summary>
+            Sets callback methods for volume change and audio samples playback
+            </summary>
+            <param name="volume">Callback method invoked when volume changed or muted</param>
+            <param name="sound">Callback method invoked when new audio samples should be played</param>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IAudioRenderer.SetCallbacks(VideoSmart.EP.Video.Declarations.AudioCallbacks)">
+            <summary>
+            Sets callback for audio playback
+            </summary>
+            <param name="callbacks"></param>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IAudioRenderer.SetFormat(VideoSmart.EP.Video.Declarations.SoundFormat)">
+            <summary>
+            Sets audio format
+            </summary>
+            <param name="format"></param>
+            <remarks>Mutually exclusive with SetFormatCallback</remarks>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IAudioRenderer.SetFormatCallback(System.Func{VideoSmart.EP.Video.Declarations.SoundFormat,VideoSmart.EP.Video.Declarations.SoundFormat})">
+            <summary>
+            Sets audio format callback, to get/set format before playback starts
+            </summary>
+            <param name="formatSetup"></param>
+            <remarks>Mutually exclusive with SetFormat</remarks>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.IDiskPlayer">
+            <summary>
+            DVD, VCD and Audio CD playback
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IDiskPlayer.ChapterCount">
+            <summary>
+            Gets the number of chapters in the movie.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IDiskPlayer.Chapter">
+            <summary>
+            Gets or sets a chapter.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IDiskPlayer.Title">
+            <summary>
+            Gets or sets the movie title
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IDiskPlayer.GetChapterCountForTitle(System.Int32)">
+            <summary>
+            Gets the number of chapters for specified title.
+            </summary>
+            <param name="title">title</param>
+            <returns>Number of chapters</returns>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IDiskPlayer.NextChapter">
+            <summary>
+            Sets the next chapter.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IDiskPlayer.PreviousChapter">
+            <summary>
+            Sets the previos chapter.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IDiskPlayer.AudioTrack">
+            <summary>
+            Sets or gets the audio track.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IDiskPlayer.AudioTrackCount">
+            <summary>
+            Gets the number of audio tracks.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IDiskPlayer.SubTytle">
+            <summary>
+            Gets or sets video subtitle
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IDiskPlayer.SubTytleCount">
+            <summary>
+            Gets the number of video subtitles
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IDiskPlayer.VideoTrackCount">
+            <summary>
+            Get the number of video tracks.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IDiskPlayer.VideoTrack">
+            <summary>
+            Gets or sets video track.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IDiskPlayer.Navigate(VideoSmart.EP.Video.Declarations.NavigationMode)">
+            <summary>
+            Navigate through DVD menu
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.IEventBroker">
+            <summary>
+            Events raised by the IPlayer object
+            </summary>
+        </member>
+        <member name="E:VideoSmart.EP.Video.Declarations.IEventBroker.MediaEnded">
+            <summary>
+            Event raised when media reaches end.
+            </summary>
+        </member>
+        <member name="E:VideoSmart.EP.Video.Declarations.IEventBroker.TimeChanged">
+            <summary>
+            Event raised when media time changed.
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.BitmapFormat">
+            <summary>
+            Specifies the parameters of the bitmap.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.BitmapFormat.#ctor(System.Int32,System.Int32,VideoSmart.EP.Video.Declarations.ChromaType)">
+            <summary>
+            Initializes new instance of BitmapFormat class
+            </summary>
+            <param name="width">The width of the bitmap in pixels</param>
+            <param name="height">The height of the bitmap in pixels</param>
+            <param name="chroma">Chroma type of the bitmap</param>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.BitmapFormat.Pitch">
+            <summary>
+            Gets the size in bytes of the scan line 
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.BitmapFormat.ImageSize">
+            <summary>
+            Gets the size of the image in bytes
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.BitmapFormat.Chroma">
+            <summary>
+            Gets the chroma type string
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.BitmapFormat.PixelFormat">
+            <summary>
+            Gets the pixel format of the bitmap. Valid only for RGB formats.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.BitmapFormat.Width">
+            <summary>
+            Gets the width of the bitmap
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.BitmapFormat.Height">
+            <summary>
+            Gets the height of the bitmap
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.BitmapFormat.BitsPerPixel">
+            <summary>
+            Gets number of bits used for a pixel according to ChromaType
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.BitmapFormat.IsPlanarFormat">
+            <summary>
+            Gets value indicationg whether the format contains more than one pixel plane
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.BitmapFormat.IsRGB">
+            <summary>
+            Gets value indicating whether the format is packed RGB
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.BitmapFormat.Planes">
+            <summary>
+            Gets number of pixel planes
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.BitmapFormat.PlaneSizes">
+            <summary>
+            Gets array of pixel plane's sizes
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.BitmapFormat.Pitches">
+            <summary>
+            Gets array of pitch size per pixel plane
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.BitmapFormat.Lines">
+            <summary>
+            Gets array of scan lines (height) per pixel plane
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.BitmapFormat.ChromaType">
+            <summary>
+            Gets the pixel format of the video frame
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.IMedia">
+            <summary>
+            Represents a media object (file, network stream, capture device, etc.)
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IMedia.Input">
+            <summary>
+            Sets or gets the media path.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IMedia.AddOptions(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Add options to media.
+            </summary>
+            <param name="options">Collection of options</param>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IMedia.State">
+            <summary>
+            Gets media state.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IMedia.AddOptionFlag(System.String,System.Int32)">
+            <summary>
+            Adds option with a configuration flag.
+            </summary>
+            <param name="option">Option</param>
+            <param name="flag">Configuration flag</param>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IMedia.Duplicate">
+            <summary>
+            Duplicates the media instance
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IMedia.Parse(System.Boolean)">
+            <summary>
+            Parses media synchronously or asynchronously.
+            </summary>
+            <param name="aSync">True for sync ,false for async</param>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IMedia.IsParsed">
+            <summary>
+            Gets value indication whether the media is parsed.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IMedia.Tag">
+            <summary>
+            Gets or sets user defined data for the media.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IMedia.Events">
+            <summary>
+            Gets events fired by media instance.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IMedia.Statistics">
+            <summary>
+            Gets statistic data associated with current media.
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.IMediaEvents">
+            <summary>
+            Events raised by IMedia object
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.IMediaPlayerFactory">
+            <summary>
+            Defines methods for creating media and player objects
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IMediaPlayerFactory.CreatePlayer``1">
+            <summary>
+            Creates new instance of player.
+            </summary>
+            <typeparam name="T">Type of the player to create</typeparam>
+            <returns>Newly created player</returns>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IMediaPlayerFactory.CreateMedia``1(System.String,System.String[])">
+            <summary>
+            Creates new instance of media.
+            </summary>
+            <typeparam name="T">Type of media to create</typeparam>
+            <param name="input">The media input string</param>
+            <param name="options">Optional media options</param>
+            <returns>Newly created media</returns>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IMediaPlayerFactory.Version">
+            <summary>
+            Gets the libVLC version.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IMediaPlayerFactory.AudioFilters">
+            <summary>
+            Gets list of available audio filters
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IMediaPlayerFactory.VideoFilters">
+            <summary>
+            Gets list of available video filters
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.IMemoryRenderer">
+            <summary>
+            Enables custom processing of video frames.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IMemoryRenderer.SetCallback(VideoSmart.EP.Video.Declarations.NewFrameEventHandler)">
+            <summary>
+            Sets the callback which invoked when new frame should be displayed
+            </summary>
+            <param name="callback">Callback method</param>
+            <remarks>The frame will be auto-disposed after callback invokation.</remarks>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IMemoryRenderer.CurrentFrame">
+            <summary>
+            Gets the latest video frame that was displayed.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IMemoryRenderer.SetFormat(VideoSmart.EP.Video.Declarations.BitmapFormat)">
+            <summary>
+            Sets the bitmap format for the callback.
+            </summary>
+            <param name="format">Bitmap format of the video frame</param>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IMemoryRenderer.ActualFrameRate">
+            <summary>
+            Gets the actual frame rate of the rendering.
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.INativePointer">
+            <summary>
+            Represents a managed object with encapsulated native pointer.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.INativePointer.Pointer">
+            <summary>
+            Reference to a native memory block.
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.IPlayer">
+            <summary>
+            Represents basic media player functionality.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IPlayer.Open(VideoSmart.EP.Video.Declarations.IMedia)">
+            <summary>
+            Opens new media item.
+            </summary>
+            <param name="media">Media item to play</param>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IPlayer.Play">
+            <summary>
+            Plays media item.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IPlayer.Pause">
+            <summary>
+            Pauses playback of the media.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IPlayer.Stop">
+            <summary>
+            Stops the playback.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IPlayer.Time">
+            <summary>
+            Gets or sets the media time in milliseconds.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IPlayer.Position">
+            <summary>
+            Gets or sets media position.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IPlayer.Length">
+            <summary>
+            Gets the media length in milliseconds.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IPlayer.Events">
+            <summary>
+            Gets player events.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IPlayer.IsPlaying">
+            <summary>
+            Gets value indicating whether the player is playing
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.IVideoPlayer">
+            <summary>
+            Player for audio visual media.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IVideoPlayer.WindowHandle">
+            <summary>
+            Sets or gets a window handle for video rendering.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IVideoPlayer.TakeSnapShot(System.UInt32,System.String)">
+            <summary>
+            Saves current video frame to a file in PNG format.
+            </summary>
+            <param name="stream">Number of video stream starting from 0</param>
+            <param name="path">Full path for the snapshot file.</param>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IVideoPlayer.PlaybackRate">
+            <summary>
+            Gets or sets media playback rate.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IVideoPlayer.FPS">
+            <summary>
+            Gets number of frames  per second.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IVideoPlayer.NextFrame">
+            <summary>
+            Shows next frame
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IVideoPlayer.GetVideoSize(System.UInt32)">
+            <summary>
+            Gets video size in pixels
+            </summary>
+            <param name="stream">Number of video stream starting from 0</param>
+            <returns>Size of the video frame</returns>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IVideoPlayer.GetCursorPosition(System.UInt32)">
+            <summary>
+            Gets cursor position in video pixel coordinates.
+            </summary>
+            <param name="stream">Number of video stream starting from 0</param>
+            <returns>Cursor position</returns>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IVideoPlayer.KeyInputEnabled">
+            <summary>
+            Gets or sets a value indicating whether video widget handles key input.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IVideoPlayer.MouseInputEnabled">
+            <summary>
+            Gets or sets a value indicating whether video widget handles mouse input.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IVideoPlayer.VideoScale">
+            <summary>
+            Gets or sets video scale.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IVideoPlayer.AspectRatio">
+            <summary>
+            Gets or sets video aspect ratio.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IVideoPlayer.SetSubtitleFile(System.String)">
+            <summary>
+            Sets video subtitle file.
+            </summary>
+            <param name="path">Full path to the video subtitles.</param>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IVideoPlayer.Teletext">
+            <summary>
+            Gets or sets teletext page.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.IVideoPlayer.ToggleTeletext">
+            <summary>
+            Toggles teletext transparent status on video output.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IVideoPlayer.PlayerWillPlay">
+            <summary>
+            Gets value indicating whether a media player can play the media.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IVideoPlayer.VoutCount">
+            <summary>
+            Gets number of video output modules.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IVideoPlayer.IsSeekable">
+            <summary>
+            Gets value indicating whether a media player is seekable.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IVideoPlayer.CanPause">
+            <summary>
+            Gets value indicating whether a media player can pause.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IVideoPlayer.Adjust">
+            <summary>
+            Sets or gets video adjustments
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IVideoPlayer.CustomRenderer">
+            <summary>
+            Gets custom renderer object allowing to process each frame as System.Drawing.Bitmap object.
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.IVideoPlayer.Deinterlace">
+            <summary>
+            Gets video deinterlace filter.
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.MediaState">
+            <summary>
+            Possible state of the media objects
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.MediaStrings">
+            <summary>
+            String values used to identify media types.
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.MetaDataType">
+            <summary>
+            Meta data types of the media object
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.PlaybackMode">
+            <summary>
+            Available playback modes for the media list player.
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.PlaybackMode.Default">
+            <summary>
+            Playes items sequentially.
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.PlaybackMode.Loop">
+            <summary>
+            Loops playlist on end.
+            </summary>
+        </member>
+        <member name="F:VideoSmart.EP.Video.Declarations.PlaybackMode.Repeat">
+            <summary>
+            Repeats the current item until another item is forced.
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.Position">
+            <summary>
+            Position on the video screen
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.SoundFormat">
+            <summary>
+            Specifies the parameters of the sound.
+            </summary>
+        </member>
+        <member name="M:VideoSmart.EP.Video.Declarations.SoundFormat.#ctor(VideoSmart.EP.Video.Declarations.SoundType,System.Int32,System.Int32)">
+            <summary>
+            Initializes new instance of SoundFormat class
+            </summary>
+            <param name="soundType"></param>
+            <param name="rate"></param>
+            <param name="channels"></param>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.SoundFormat.Format">
+            <summary>
+            Audio format
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.SoundFormat.Rate">
+            <summary>
+            Sampling rate in Hz
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.SoundFormat.Channels">
+            <summary>
+            Number of channels used by audio sample
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.SoundFormat.BitsPerSample">
+            <summary>
+            Size of single audio sample in bytes
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.SoundFormat.SoundType">
+            <summary>
+            Specifies sound sample format
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.SoundFormat.BlockSize">
+            <summary>
+            Size of audio block (BitsPerSample / 8 * Channels)
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.SoundFormat.UseCustomAudioRendering">
+            <summary>
+            Indicated whether to use custom audio renderer (True), or to use default audio output (False)
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.VlcColor">
+            <summary>
+            Represents colors in HTML format
+            </summary>
+        </member>
+        <member name="T:VideoSmart.EP.Video.Declarations.Sound">
+            <summary>
+            Structure incapsulation for audio samples
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.Sound.SamplesData">
+            <summary>
+            Pointer to the first audio sample
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.Sound.SamplesSize">
+            <summary>
+            Size in bytes of SamplesData buffer
+            </summary>
+        </member>
+        <member name="P:VideoSmart.EP.Video.Declarations.Sound.Pts">
+            <summary>
+            Playback time stamp in microseconds
+            </summary>
+        </member>
+    </members>
+</doc>

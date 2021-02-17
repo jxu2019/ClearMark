@@ -1,0 +1,236 @@
+[1] 03/07/2019 10:13:14 DEBUG [RobotControlService.RunConsole] - Start PDP IPCamera Streaming Windows Service..
+
+[6] 03/07/2019 10:13:21 ERROR [RobotControlService+<OnStart>d__291.MoveNext] - Cannot open certificate store: An error occurred during encode or decode operation. (0x80092002)
+   at nsoftware.IPWorksWS.Websocketserver.set_SSLCert(Certificate value)
+   at RobotControlService.RobotControlService.<OnStart>d__291.MoveNext() in D:\Source\RobotControlService\RobotControlService\RobotControlService.cs:line 4377
+
+[10] 03/07/2019 10:13:22 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 6044116; Message:Enabling TLS versions: TLS1.2 TLS1.1 TLS1.0 
+
+[3] 03/07/2019 10:13:22 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 6044116; Message:Receiving 517 bytes of handshake data.
+
+[3] 03/07/2019 10:13:22 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 6044116; Message:Cipher Suites:
+    Unknown (27242);
+    TLS_AES_128_GCM_SHA256 (0x1301);
+    TLS_AES_256_GCM_SHA384 (0x1302);
+    TLS_CHACHA20_POLY1305_SHA256 (0x1303);
+    TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b);
+    TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f);
+    TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c);
+    TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030);
+    Unknown (52393);
+    Unknown (52392);
+    TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013);
+    TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014);
+    TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c);
+    TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d);
+    TLS_RSA_WITH_AES_128_CBC_SHA (0x002f);
+    TLS_RSA_WITH_AES_256_CBC_SHA (0x0035);
+    TLS_RSA_WITH_3DES_EDE_CBC_SHA (0x000a)
+
+[3] 03/07/2019 10:13:22 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 6044116; Message:Selected TLS Version: TLS1.2
+
+[3] 03/07/2019 10:13:22 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 6044116; Message:Selected Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+
+[3] 03/07/2019 10:13:22 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 6044116; Message:Sending 6836 bytes of handshake data.
+
+[3] 03/07/2019 10:13:22 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 6044116; Message:Receiving 93 bytes of handshake data.
+
+[3] 03/07/2019 10:13:22 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 6044116; Message:Sending 51 bytes of handshake data.
+
+[3] 03/07/2019 10:13:22 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 6044116; Message:Negotiated SSL parameters: Protocol: TLS1.2 Cipher: AES Cipher strength: 256 Hash: SHA384 Hash strength: 384 Key exchange: ECDH Ephemeral RSA Key exchange strength: 255
+
+[73] 03/07/2019 10:13:22 INFO  [RobotControlService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 6044116; Message:Host: camera.pdp.systems:8801
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade: websocket
+Origin: https://camera.pdp.systems
+Sec-WebSocket-Version: 13
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Sec-WebSocket-Key: 3FLbZas9YP5ymvRot9SkvQ==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[73] 03/07/2019 10:13:22 INFO  [RobotControlService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 6044116
+
+[73] 03/07/2019 10:13:22 INFO  [RobotControlService.WebsocketserverMain_OnDataIn] - Received Data From :6044116
+
+[73] 03/07/2019 10:13:22 INFO  [RobotControlService.WebsocketserverMain_OnDataIn] - Received Data :<xml><MessageType>GET_CAMERAS</MessageType><Project>PDPTX05</Project></xml>
+
+[6] 03/07/2019 10:13:22 ERROR [RobotControlService+<OnStart>d__291.MoveNext] - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RobotControlService.RobotControlService.<OnStart>d__291.MoveNext() in D:\Source\RobotControlService\RobotControlService\RobotControlService.cs:line 4772
+
+[6] 03/07/2019 10:13:23 ERROR [RobotControlService+<OnStart>d__291.MoveNext] - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RobotControlService.RobotControlService.<OnStart>d__291.MoveNext() in D:\Source\RobotControlService\RobotControlService\RobotControlService.cs:line 4812
+
+[6] 03/07/2019 10:13:23 ERROR [RobotControlService+<OnStart>d__291.MoveNext] - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RobotControlService.RobotControlService.<OnStart>d__291.MoveNext() in D:\Source\RobotControlService\RobotControlService\RobotControlService.cs:line 4853
+
+[6] 03/07/2019 10:13:23 ERROR [RobotControlService+<OnStart>d__291.MoveNext] - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RobotControlService.RobotControlService.<OnStart>d__291.MoveNext() in D:\Source\RobotControlService\RobotControlService\RobotControlService.cs:line 4894
+
+[6] 03/07/2019 10:13:23 ERROR [RobotControlService+<OnStart>d__291.MoveNext] - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RobotControlService.RobotControlService.<OnStart>d__291.MoveNext() in D:\Source\RobotControlService\RobotControlService\RobotControlService.cs:line 4934
+
+[6] 03/07/2019 10:13:23 ERROR [RobotControlService+<OnStart>d__291.MoveNext] - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at RobotControlService.RobotControlService.<OnStart>d__291.MoveNext() in D:\Source\RobotControlService\RobotControlService\RobotControlService.cs:line 4974
+
+[6] 03/07/2019 10:13:23 DEBUG [RobotControlService+<OnStart>d__291.MoveNext] - PDP IPCamera Streaming Windows Service successfully started.
+
+[73] 03/07/2019 10:13:23 INFO  [RobotControlService.WebsocketserverMain_OnDataIn] - Received Data From :6044116
+
+[73] 03/07/2019 10:13:23 INFO  [RobotControlService.WebsocketserverMain_OnDataIn] - Received Data :<xml><MessageType>LOG_MESSAGES</MessageType><Message>
+URL:https://camera.pdp.systems/main.html?PJ=PDPTX05</Message></xml>
+
+[3] 03/07/2019 10:13:25 INFO  [RobotControlService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 6044116
+
+[6] 03/07/2019 10:13:25 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 59817589; Message:Enabling TLS versions: TLS1.2 TLS1.1 TLS1.0 
+
+[3] 03/07/2019 10:13:25 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 59817589; Message:Receiving 517 bytes of handshake data.
+
+[3] 03/07/2019 10:13:25 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 59817589; Message:Cipher Suites:
+    Unknown (56026);
+    TLS_AES_128_GCM_SHA256 (0x1301);
+    TLS_AES_256_GCM_SHA384 (0x1302);
+    TLS_CHACHA20_POLY1305_SHA256 (0x1303);
+    TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b);
+    TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f);
+    TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c);
+    TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030);
+    Unknown (52393);
+    Unknown (52392);
+    TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013);
+    TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014);
+    TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c);
+    TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d);
+    TLS_RSA_WITH_AES_128_CBC_SHA (0x002f);
+    TLS_RSA_WITH_AES_256_CBC_SHA (0x0035);
+    TLS_RSA_WITH_3DES_EDE_CBC_SHA (0x000a)
+
+[3] 03/07/2019 10:13:25 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 59817589; Message:Selected TLS Version: TLS1.2
+
+[3] 03/07/2019 10:13:25 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 59817589; Message:Selected Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+
+[3] 03/07/2019 10:13:25 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 59817589; Message:Sending 5046 bytes of handshake data.
+
+[3] 03/07/2019 10:13:25 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 59817589; Message:Receiving 93 bytes of handshake data.
+
+[3] 03/07/2019 10:13:25 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 59817589; Message:Sending 51 bytes of handshake data.
+
+[3] 03/07/2019 10:13:25 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 59817589; Message:Negotiated SSL parameters: Protocol: TLS1.2 Cipher: AES Cipher strength: 256 Hash: SHA384 Hash strength: 384 Key exchange: ECDH Ephemeral RSA Key exchange strength: 255
+
+[6] 03/07/2019 10:13:25 INFO  [RobotControlService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 59817589; Message:Host: camera.pdp.systems:8801
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade: websocket
+Origin: https://camera.pdp.systems
+Sec-WebSocket-Version: 13
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Sec-WebSocket-Key: iK/0zyxXnWKtMc7xZ2sldg==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[6] 03/07/2019 10:13:25 INFO  [RobotControlService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 59817589
+
+[3] 03/07/2019 10:13:25 INFO  [RobotControlService.WebsocketserverMain_OnDataIn] - Received Data From :59817589
+
+[3] 03/07/2019 10:13:25 INFO  [RobotControlService.WebsocketserverMain_OnDataIn] - Received Data :<xml><MessageType>GET_CAMERAS</MessageType><Project>PDPTX05</Project></xml>
+
+[73] 03/07/2019 10:13:25 INFO  [RobotControlService.WebsocketserverMain_OnDataIn] - Received Data From :59817589
+
+[73] 03/07/2019 10:13:25 INFO  [RobotControlService.WebsocketserverMain_OnDataIn] - Received Data :<xml><MessageType>LOG_MESSAGES</MessageType><Message>
+URL:https://camera.pdp.systems/main.html?PJ=PDPTX05</Message></xml>
+
+[73] 03/07/2019 10:14:00 INFO  [RobotControlService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 59817589
+
+[15] 03/07/2019 10:14:01 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 48209832; Message:Enabling TLS versions: TLS1.2 TLS1.1 TLS1.0 
+
+[73] 03/07/2019 10:14:01 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 48209832; Message:Receiving 517 bytes of handshake data.
+
+[73] 03/07/2019 10:14:01 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 48209832; Message:Cipher Suites:
+    Unknown (35466);
+    TLS_AES_128_GCM_SHA256 (0x1301);
+    TLS_AES_256_GCM_SHA384 (0x1302);
+    TLS_CHACHA20_POLY1305_SHA256 (0x1303);
+    TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b);
+    TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f);
+    TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c);
+    TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030);
+    Unknown (52393);
+    Unknown (52392);
+    TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013);
+    TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014);
+    TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c);
+    TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d);
+    TLS_RSA_WITH_AES_128_CBC_SHA (0x002f);
+    TLS_RSA_WITH_AES_256_CBC_SHA (0x0035);
+    TLS_RSA_WITH_3DES_EDE_CBC_SHA (0x000a)
+
+[73] 03/07/2019 10:14:01 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 48209832; Message:Selected TLS Version: TLS1.2
+
+[73] 03/07/2019 10:14:01 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 48209832; Message:Selected Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+
+[73] 03/07/2019 10:14:01 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 48209832; Message:Sending 5046 bytes of handshake data.
+
+[73] 03/07/2019 10:14:01 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 48209832; Message:Receiving 93 bytes of handshake data.
+
+[73] 03/07/2019 10:14:01 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 48209832; Message:Sending 51 bytes of handshake data.
+
+[73] 03/07/2019 10:14:01 INFO  [RobotControlService.WebsocketserverMain_OnSSLStatus] - ConnectionID: 48209832; Message:Negotiated SSL parameters: Protocol: TLS1.2 Cipher: AES Cipher strength: 256 Hash: SHA384 Hash strength: 384 Key exchange: ECDH Ephemeral RSA Key exchange strength: 255
+
+[28] 03/07/2019 10:14:01 INFO  [RobotControlService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 48209832; Message:Host: camera.pdp.systems:8801
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade: websocket
+Origin: https://camera.pdp.systems
+Sec-WebSocket-Version: 13
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Sec-WebSocket-Key: 43W5rz53JG/9b3O4+5Pvew==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[28] 03/07/2019 10:14:01 INFO  [RobotControlService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 48209832
+
+[73] 03/07/2019 10:14:01 INFO  [RobotControlService.WebsocketserverMain_OnDataIn] - Received Data From :48209832
+
+[73] 03/07/2019 10:14:01 INFO  [RobotControlService.WebsocketserverMain_OnDataIn] - Received Data :<xml><MessageType>GET_CAMERAS</MessageType><Project>PDPTX08</Project></xml>
+
+[73] 03/07/2019 10:14:01 ERROR [RobotControlService.GetCameras] - The given path's format is not supported.
+
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.FileInfo.Init(String fileName, Boolean checkHost)
+   at System.IO.FileInfo..ctor(String fileName)
+   at RobotControlService.RobotControlService.GetCameras(String mConnectionId, String mProject) in D:\Source\RobotControlService\RobotControlService\RobotControlService.cs:line 6596
+[73] 03/07/2019 10:14:01 INFO  [RobotControlService.WebsocketserverMain_OnDataIn] - Received Data From :48209832
+
+[73] 03/07/2019 10:14:01 INFO  [RobotControlService.WebsocketserverMain_OnDataIn] - Received Data :<xml><MessageType>LOG_MESSAGES</MessageType><Message>
+URL:https://camera.pdp.systems/main.html?PJ=PDPTX08</Message></xml>
+

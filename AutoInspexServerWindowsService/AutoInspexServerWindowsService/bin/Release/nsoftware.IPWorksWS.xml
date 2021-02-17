@@ -1,0 +1,820 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>nsoftware.IPWorksWS</name>
+    </assembly>
+    <members>
+        <member name="F:nsoftware.core.LoadCertificateForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:nsoftware.core.LoadCertificateForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:nsoftware.core.LoadCertificateForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.CertmgrCertChainEventArgs">
+            <summary>Event arguments for the CertChain event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.CertmgrCertListEventArgs">
+            <summary>Event arguments for the CertList event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.CertmgrErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.CertmgrKeyListEventArgs">
+            <summary>Event arguments for the KeyList event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.CertmgrStoreListEventArgs">
+            <summary>Event arguments for the StoreList event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.SetCertStore(System.Byte[],System.Int32,System.Int32)">
+            <summary>The certificate store to search for certificates.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.CreateCertificate(System.String,System.Int32)">
+            <summary>Creates a new self-signed certificate in the current store.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.CreateKey(System.String)">
+            <summary>Creates a new keyset associated with the provided name.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.DeleteCertificate">
+            <summary>Deletes the currently selected certificate from the store.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.DeleteKey(System.String)">
+            <summary>Deletes the keyset associated with the provided name.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.ExportCertificate(System.String,System.String)">
+            <summary>Saves the current certificate to a file.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.GenerateCSR(System.String,System.String)">
+            <summary>Generates a new CSR to be sent to a signing authority.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.ImportCertificate(System.String,System.String,System.String)">
+            <summary>Imports a certificate from a PFX file into the current certificate store.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.ImportSignedCSR(System.Byte[],System.String)">
+            <summary>Imports a signed CSR.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.IssueCertificate(System.String,System.Int32)">
+            <summary>Creates a new certificate in the current store, signed by the selected certificate.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.ListCertificateStores">
+            <summary>Lists certificate stores.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.ListKeys">
+            <summary>List keysets in a CSP.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.ListMachineStores">
+            <summary>List machine certificate stores.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.ListStoreCertificates">
+            <summary>List certificates in a store.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.ReadCertificate(System.String)">
+            <summary>Loads a certificate from a file.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.ReadCSR(System.String)">
+            <summary>Reads a Certificate Signing Request (CSR).</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.Reset">
+            <summary>Resets all certificate properties to their default values.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.SaveCertificate(System.String)">
+            <summary>Saves the current certificate to a file.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.ShowCertificateChain">
+            <summary>Show certificate chain.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certmgr.SignCSR(System.Byte[],System.Int32)">
+            <summary>Creates a signed certificate from a CSR.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certmgr.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Certmgr.OnCertChain">
+            <summary>Shows the certificate chain for the certificate (see the ShowCertificateChain method).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Certmgr.OnCertList">
+            <summary>Lists the certificates in a store (see the ListStoreCertificates method).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Certmgr.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Certmgr.OnKeyList">
+            <summary>Lists the keysets in a CSP (see the ListKeys method).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Certmgr.OnStoreList">
+            <summary>Lists the system certificate stores (see the ListCertificateStores and ListMachineStores methods).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certmgr.Cert">
+            <summary>The current selected certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certmgr.CertExtensions">
+            <summary>A list of extensions used by the currently selected certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certmgr.CertStoreB">
+            <summary>The certificate store to search for certificates.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certmgr.CertStore">
+            <summary>The certificate store to search for certificates.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certmgr.CertStorePassword">
+            <summary>The password for the certificate store (if any).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certmgr.CertStoreType">
+            <summary>The type of certificate store for CertStore .</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketclientConnectedEventArgs">
+            <summary>Event arguments for the Connected event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketclientConnectionStatusEventArgs">
+            <summary>Event arguments for the ConnectionStatus event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketclientDataInEventArgs">
+            <summary>Event arguments for the DataIn event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketclientDisconnectedEventArgs">
+            <summary>Event arguments for the Disconnected event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketclientErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketclientHeaderEventArgs">
+            <summary>Event arguments for the Header event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketclientReadyToSendEventArgs">
+            <summary>Event arguments for the ReadyToSend event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketclientRedirectEventArgs">
+            <summary>Event arguments for the Redirect event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketclientSetCookieEventArgs">
+            <summary>Event arguments for the SetCookie event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketclientSSLServerAuthenticationEventArgs">
+            <summary>Event arguments for the SSLServerAuthentication event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketclientSSLStatusEventArgs">
+            <summary>Event arguments for the SSLStatus event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketclient.SetDataToSend(System.Byte[],System.Int32,System.Int32)">
+            <summary>A string of data to be sent to the remote host.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketclient.AddCookie(System.String,System.String)">
+            <summary>Adds a cookie and the corresponding value to the outgoing request headers.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketclient.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketclient.Connect(System.String)">
+            <summary>Connects to the specified host.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketclient.Disconnect">
+            <summary>Disconnects from the remote host.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketclient.DoEvents">
+            <summary>Processes events from the internal message queue.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketclient.Interrupt">
+            <summary>Interrupt the current method.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketclient.ResetHeaders">
+            <summary>Resets all HTTP Headers, Cookies, LocalFile , and AttachedFile .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketclient.Send(System.Byte[])">
+            <summary>Sends data to the remote host.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketclient.SendFile(System.String)">
+            <summary>Sends file to the remote host.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketclient.SendText(System.String)">
+            <summary>Sends text data to the server.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketclient.SetReceiveStream(System.IO.Stream)">
+            <summary>Sets the stream to which received data will be written.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketclient.SetSendStream(System.IO.Stream)">
+            <summary>Reads content from the stream and sends it to the server.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketclient.OnConnected">
+            <summary>Fired immediately after a connection completes (or fails).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketclient.OnConnectionStatus">
+            <summary>Fired to indicate changes in connection state.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketclient.OnDataIn">
+            <summary>Fired when data is received.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketclient.OnDisconnected">
+            <summary>Fired when a connection is closed.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketclient.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketclient.OnHeader">
+            <summary>Fired every time a header line comes in.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketclient.OnReadyToSend">
+            <summary>Fired when IPPort is ready to send data.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketclient.OnRedirect">
+            <summary>Fired when a redirection is received from the server.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketclient.OnSetCookie">
+            <summary>Fired for every cookie set by the server.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketclient.OnSSLServerAuthentication">
+            <summary>Fired after the server presents its certificate to the client.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketclient.OnSSLStatus">
+            <summary>Shows the progress of the secure connection.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.Cookies">
+            <summary>Collection of cookies.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.Firewall">
+            <summary>A set of properties related to firewall access.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.ParsedHeaders">
+            <summary>Collection of headers returned from the last request.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.Proxy">
+            <summary>A set of properties related to proxy access.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.SSLAcceptServerCert">
+            <summary>Instructs the component to unconditionally accept the server certificate that matches the supplied certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.SSLCert">
+            <summary>The certificate to be used during SSL negotiation.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.SSLServerCert">
+            <summary>The server certificate for the last established connection.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.AcceptData">
+            <summary>Enables or disables data reception (the DataIn event).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.Authorization">
+            <summary>The Authorization string to be sent to the server.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.AuthScheme">
+            <summary>The authentication scheme to use when server authorization is required.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.BytesSent">
+            <summary>The number of bytes actually sent after an assignment to DataToSend .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.Connected">
+            <summary>Shows whether the component is connected.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.DataFormat">
+            <summary>The format of the data being sent.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.DataToSendB">
+            <summary>A string of data to be sent to the remote host.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.DataToSend">
+            <summary>A string of data to be sent to the remote host.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.FollowRedirects">
+            <summary>Determines what happens when the server issues a redirect.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.LocalHost">
+            <summary>The name of the local host or user-assigned IP interface through which connections are initiated or accepted.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.Origin">
+            <summary>The Origin header field value.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.OtherHeaders">
+            <summary>Other headers as determined by the user (optional).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.Password">
+            <summary>A password if authentication is to be used.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.SubProtocols">
+            <summary>Optional subprotocols supported by the client.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.Timeout">
+            <summary>A timeout for the component.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.TransferredHeaders">
+            <summary>The full set of headers as received from the server.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketclient.User">
+            <summary>A user name if authentication is to be used.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketproxyConnectedEventArgs">
+            <summary>Event arguments for the Connected event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketproxyConnectionRequestEventArgs">
+            <summary>Event arguments for the ConnectionRequest event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketproxyDataInEventArgs">
+            <summary>Event arguments for the DataIn event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketproxyDisconnectedEventArgs">
+            <summary>Event arguments for the Disconnected event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketproxyErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketproxySSLClientAuthenticationEventArgs">
+            <summary>Event arguments for the SSLClientAuthentication event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketproxySSLStatusEventArgs">
+            <summary>Event arguments for the SSLStatus event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketproxyWebSocketOpenRequestEventArgs">
+            <summary>Event arguments for the WebSocketOpenRequest event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketproxy.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketproxy.Disconnect(System.String)">
+            <summary>Disconnect the specified client.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketproxy.DoEvents">
+            <summary>Processes events from the internal message queue.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketproxy.Shutdown">
+            <summary>Shuts down the server.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketproxy.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketproxy.OnConnected">
+            <summary>Fired when a WebSocket is successfully opened.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketproxy.OnConnectionRequest">
+            <summary>Fired when a request for connection comes from a remote host.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketproxy.OnDataIn">
+            <summary>Fired when data is received.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketproxy.OnDisconnected">
+            <summary>Fired when a WebSocket connection is disconnected.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketproxy.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketproxy.OnSSLClientAuthentication">
+            <summary>Fired when the client presents its credentials to the server.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketproxy.OnSSLStatus">
+            <summary>Shows the progress of the secure connection.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketproxy.OnWebSocketOpenRequest">
+            <summary>Fired when a client attempts to open a WebSocket.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketproxy.Connections">
+            <summary>A collection of currently connected WebSocket clients.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketproxy.Firewall">
+            <summary>A set of properties related to firewall access.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketproxy.SSLCert">
+            <summary>The certificate to be used during SSL negotiation.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketproxy.ConnectionBacklog">
+            <summary>The maximum number of pending connections maintained by the TCP/IP subsystem.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketproxy.DefaultForwardHost">
+            <summary>The default address of the host to which data will be forwarded.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketproxy.DefaultForwardPort">
+            <summary>The default port of the host to which data will be forwarded.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketproxy.DefaultTimeout">
+            <summary>An initial timeout value to be used by incoming connections.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketproxy.Listening">
+            <summary>If True, the component accepts incoming connections on LocalPort.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketproxy.LocalHost">
+            <summary>The name of the local host or user-assigned IP interface through which connections are initiated or accepted.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketproxy.LocalPort">
+            <summary>The TCP port in the local host where the component listens.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketproxy.SSLAuthenticateClients">
+            <summary>If true, the server asks the client(s) for a certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketproxy.UseSSL">
+            <summary>Determines if SSL is negotiated with incoming connections.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketserverConnectedEventArgs">
+            <summary>Event arguments for the Connected event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketserverConnectionRequestEventArgs">
+            <summary>Event arguments for the ConnectionRequest event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketserverDataInEventArgs">
+            <summary>Event arguments for the DataIn event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketserverDisconnectedEventArgs">
+            <summary>Event arguments for the Disconnected event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketserverErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketserverReadyToSendEventArgs">
+            <summary>Event arguments for the ReadyToSend event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketserverSSLClientAuthenticationEventArgs">
+            <summary>Event arguments for the SSLClientAuthentication event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketserverSSLStatusEventArgs">
+            <summary>Event arguments for the SSLStatus event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksWS.WebsocketserverWebSocketOpenRequestEventArgs">
+            <summary>Event arguments for the WebSocketOpenRequest event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketserver.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketserver.Disconnect(System.String)">
+            <summary>Disconnect the specified client.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketserver.DoEvents">
+            <summary>Processes events from the internal message queue.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketserver.Interrupt(System.String)">
+            <summary>Interrupts a synchronous send to the remote host.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketserver.Send(System.String,System.Byte[])">
+            <summary>Sends binary data to the client.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketserver.SendFile(System.String,System.String)">
+            <summary>Send file to the remote host.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketserver.SendText(System.String,System.String)">
+            <summary>Sends text data to the client.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Websocketserver.Shutdown">
+            <summary>Shuts down the server.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketserver.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketserver.OnConnected">
+            <summary>Fired when a WebSocket is successfully opened.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketserver.OnConnectionRequest">
+            <summary>Fired when a request for connection comes from a remote host.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketserver.OnDataIn">
+            <summary>Fired when data is received.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketserver.OnDisconnected">
+            <summary>Fired when a WebSocket connection is disconnected.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketserver.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketserver.OnReadyToSend">
+            <summary>Fired when the component is ready to send data.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketserver.OnSSLClientAuthentication">
+            <summary>Fired when the client presents its credentials to the server.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketserver.OnSSLStatus">
+            <summary>Shows the progress of the secure connection.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksWS.Websocketserver.OnWebSocketOpenRequest">
+            <summary>Fired when a client attempts to open a WebSocket.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketserver.Connections">
+            <summary>A collection of currently connected WebSocket clients.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketserver.SSLCert">
+            <summary>The certificate to be used during SSL negotiation.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketserver.ConnectionBacklog">
+            <summary>The maximum number of pending connections maintained by the TCP/IP subsystem.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketserver.DefaultTimeout">
+            <summary>An initial timeout value to be used by incoming connections.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketserver.Listening">
+            <summary>If True, the component accepts incoming connections on LocalPort.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketserver.LocalHost">
+            <summary>The name of the local host or user-assigned IP interface through which connections are initiated or accepted.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketserver.LocalPort">
+            <summary>The TCP port in the local host where the component listens.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketserver.SSLAuthenticateClients">
+            <summary>If true, the server asks the client(s) for a certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Websocketserver.UseSSL">
+            <summary>Determines if SSL is negotiated with incoming connections.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certificate.#ctor">
+            <summary>The digital certificate being used.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certificate.#ctor(System.String)">
+            <summary>The digital certificate being used.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certificate.#ctor(System.Byte[])">
+            <summary>The digital certificate being used.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certificate.#ctor(nsoftware.IPWorksWS.CertStoreTypes,System.String,System.String,System.String)">
+            <summary>The digital certificate being used.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certificate.#ctor(nsoftware.IPWorksWS.CertStoreTypes,System.String,System.String,System.Byte[])">
+            <summary>The digital certificate being used.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certificate.#ctor(nsoftware.IPWorksWS.CertStoreTypes,System.Byte[],System.String,System.String)">
+            <summary>The digital certificate being used.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Certificate.#ctor(nsoftware.IPWorksWS.CertStoreTypes,System.Byte[],System.String,System.Byte[])">
+            <summary>The digital certificate being used.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.EffectiveDate">
+            <summary>The date which this certificate becomes valid.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.EncodedB">
+            <summary>The certificate (PEM/base64 encoded).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.Encoded">
+            <summary>The certificate (PEM/base64 encoded).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.ExpirationDate">
+            <summary>The date the certificate expires.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.ExtendedKeyUsage">
+            <summary>A comma-delimited list of extended key usage identifiers.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.Fingerprint">
+            <summary>The hex-encoded, 16-byte MD5 fingerprint of the certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.Issuer">
+            <summary>The issuer of the certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.PrivateKey">
+            <summary>The private key of the certificate (if available).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.PrivateKeyAvailable">
+            <summary>Shows whether a PrivateKey is available for the  selected certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.PrivateKeyContainer">
+            <summary>The name of the PrivateKey container for the  certificate (if available).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.PublicKey">
+            <summary>The public key of the certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.PublicKeyAlgorithm">
+            <summary>Textual description of the public key algorithm of the  certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.PublicKeyLength">
+            <summary>The length of the certificate public key (in bits).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.SerialNumber">
+            <summary>The serial number of the certificate encoded as a  string.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.SignatureAlgorithm">
+            <summary>Text description of the signature algorithm of the  certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.StoreB">
+            <summary>The name of the certificate store for the client certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.Store">
+            <summary>The name of the certificate store for the client certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.StorePassword">
+            <summary>If the certificate store is of a type that requires  a password, this property is used to specify that  password in order to open the certificate store.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.StoreType">
+            <summary>The type of certificate store for this certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.Subject">
+            <summary>The subject of the certificate used for client authentication.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.SubjectAltNames">
+            <summary>A comma-separated lists of alternative subject names of the certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.ThumbprintMD5">
+            <summary>MD5 hash of the certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.ThumbprintSHA1">
+            <summary>SHA1 hash of the certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.ThumbprintSHA256">
+            <summary>SHA256 hash of the certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.Usage">
+            <summary>Text description of UsageFlags .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.UsageFlags">
+            <summary>Flags that show intended use for the certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Certificate.Version">
+            <summary>The certificate's version number.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.CertExtension.#ctor(System.String,System.Byte[],System.Boolean)">
+            <summary>Represents an extension for a certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.CertExtension.Critical">
+            <summary>Whether or not the extension is defined as critical.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.CertExtension.OID">
+            <summary>The ASN.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.CertExtension.ValueB">
+            <summary>The raw value of this certificate extension.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.CertExtension.Value">
+            <summary>The raw value of this certificate extension.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.HTTPCookie.#ctor">
+            <summary>An HTTP cookie either sent to or received from the server.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.HTTPCookie.#ctor(System.String,System.String)">
+            <summary>An HTTP cookie either sent to or received from the server.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.HTTPCookie.Domain">
+            <summary>The domain of a received cookie.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.HTTPCookie.Expiration">
+            <summary>This property contains an expiration time for the cookie (if provided by the server).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.HTTPCookie.Name">
+            <summary>The name of the cookie.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.HTTPCookie.Path">
+            <summary>This property contains a path name to limit the cookie to (if provided by the server).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.HTTPCookie.Secure">
+            <summary>This property contains the security flag of the received cookie.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.HTTPCookie.Value">
+            <summary>This property contains the value of the cookie.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Firewall.#ctor">
+            <summary>The firewall the component will connect through.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Firewall.AutoDetect">
+            <summary>This property tells the component whether or not to automatically detect and use firewall system settings, if available.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Firewall.FirewallType">
+            <summary>This property determines the type of firewall to connect through.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Firewall.Host">
+            <summary>This property contains the name or IP address of firewall (optional).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Firewall.Password">
+            <summary>This property contains a password if authentication is to be used when connecting through the firewall.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Firewall.Port">
+            <summary>This property contains the TCP port for the firewall Host .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Firewall.User">
+            <summary>This property contains a user name if authentication is to be used connecting through a firewall.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Header.#ctor">
+            <summary>An HTTP header as it is received from the server.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Header.#ctor(System.String,System.String)">
+            <summary>An HTTP header as it is received from the server.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Header.Field">
+            <summary>This property contains the name of the HTTP header (same case as it is delivered).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Header.Value">
+            <summary>This property contains the header contents.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Proxy.#ctor">
+            <summary>The proxy the component will connect to.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Proxy.#ctor(System.String,System.Int32)">
+            <summary>The proxy the component will connect to.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksWS.Proxy.#ctor(System.String,System.Int32,System.String,System.String)">
+            <summary>The proxy the component will connect to.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Proxy.AuthScheme">
+            <summary>This property is used to tell the component which  type of authorization to perform when connecting to the proxy.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Proxy.AutoDetect">
+            <summary>This property tells the component whether or not to automatically detect and use proxy system settings, if available.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Proxy.Password">
+            <summary>This property contains a password if authentication is to be used for the proxy.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Proxy.Port">
+            <summary>This property contains the TCP port for the proxy Server (default 80).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Proxy.Server">
+            <summary>If a proxy Server is given, then the HTTP request is sent to the proxy instead of the server otherwise specified.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Proxy.SSL">
+            <summary>This property determines when to use SSL for the connection to the proxy.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.Proxy.User">
+            <summary>This property contains a user name, if authentication is to be used for the proxy.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketProxyConnection.Connected">
+            <summary>This property is used to disconnect individual connections and/or show their status.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketProxyConnection.ConnectionId">
+            <summary>This property contains an identifier generated by the component to identify each connection.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketProxyConnection.ForwardHost">
+            <summary>This property shows the address of the forward host.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketProxyConnection.ForwardPort">
+            <summary>This property shows the port of the forward host.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketProxyConnection.Host">
+            <summary>The Host header value of the connected client.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketProxyConnection.LocalAddress">
+            <summary>This property shows the IP address of the interface through which the connection is passing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketProxyConnection.Origin">
+            <summary>The Origin header value of the connected client.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketProxyConnection.RemoteHost">
+            <summary>This property shows the IP address of the connected client.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketProxyConnection.RemotePort">
+            <summary>This property shows the port of the connected client.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketProxyConnection.RequestHeaders">
+            <summary>The HTTP headers sent by the client in the initial WebSocket connection request.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketProxyConnection.RequestURI">
+            <summary>The requested URI sent by the client in the initial WebSocket connection request.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketProxyConnection.SubProtocols">
+            <summary>The subprotocols (application-level protocols layered  over the WebSocket Protocol) sent by the client in the initial WebSocket connection request.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketProxyConnection.Timeout">
+            <summary>A timeout for the component.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketConnection.AcceptData">
+            <summary>Setting this property to False, temporarily disables data reception (and the DataIn event) on the connection.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketConnection.BytesSent">
+            <summary>This property shows how many bytes were sent after the last assignment to DataToSend .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketConnection.Connected">
+            <summary>This property is used to disconnect individual connections and/or show their status.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketConnection.ConnectionId">
+            <summary>This property contains an identifier generated by the component to identify each connection.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketConnection.DataFormat">
+            <summary>The format of the data being sent.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketConnection.DataToSendB">
+            <summary>This property contains a string of data to be sent to the remote host.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketConnection.DataToSend">
+            <summary>This property contains a string of data to be sent to the remote host.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketConnection.Host">
+            <summary>The Host header value of the connected client.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketConnection.LocalAddress">
+            <summary>This property shows the IP address of the interface through which the connection is passing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketConnection.Origin">
+            <summary>The Origin header value of the connected client.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketConnection.RemoteHost">
+            <summary>This property shows the IP address of the connected client.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketConnection.RemotePort">
+            <summary>This property shows the port of the connected client.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketConnection.RequestHeaders">
+            <summary>The HTTP headers sent by the client in the initial WebSocket connection request.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketConnection.RequestURI">
+            <summary>The requested URI sent by the client in the initial WebSocket connection request.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketConnection.SubProtocols">
+            <summary>The subprotocols (application-level protocols layered  over the WebSocket Protocol) sent by the client in the initial WebSocket connection request.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketConnection.Timeout">
+            <summary>A timeout for the component.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksWS.WebSocketConnection.UploadStream">
+            <summary>Setting this property uploads the data in the specified stream to the current connection.</summary>
+        </member>
+    </members>
+</doc>
