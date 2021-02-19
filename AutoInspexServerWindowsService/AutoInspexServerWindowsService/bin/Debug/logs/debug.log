@@ -1699,3 +1699,75 @@ Origin: null
   "error": "Unable to connect to the camera at postion 15"
 }
 
+[1] 02/18/2021 12:27:18 DEBUG [AutoInspexWindowsService.RunConsole] - Start AutoPix WebSocket Server Windows Service...
+
+[1] 02/18/2021 12:27:18 DEBUG [AutoInspexWindowsService.OnStart] -  AutoPix WebSocket Server Windows Service was successfully started.
+
+[3] 02/18/2021 12:48:45 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 6044116; Message:Host: 192.168.0.11:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: gHBrLHFkdH7ytUhlRaLEkw==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[3] 02/18/2021 12:48:45 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 6044116
+
+[3] 02/18/2021 13:14:52 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 6044116
+
+[6] 02/18/2021 13:15:19 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 59817589; Message:Host: 192.168.0.11:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: ClIQJ2zbxpyejYIp73C+eQ==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[6] 02/18/2021 13:15:19 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 59817589
+
+[9] 02/18/2021 13:41:43 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 59817589
+
+[9] 02/18/2021 13:44:39 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 48209832; Message:Host: 192.168.0.11:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: guzdDmz0EgfrOP87LWB13Q==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[9] 02/18/2021 13:44:39 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 48209832
+
+[11] 02/18/2021 13:59:54 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 48209832
+
+[11] 02/18/2021 14:00:06 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 5773521; Message:Host: 192.168.0.11:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: Qn4TnI9Gu7gYtrvhYBV4Ew==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[11] 02/18/2021 14:00:06 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 5773521
+
+[11] 02/18/2021 14:04:38 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnDisconnected] - Client Disconnected. ConnectionID: 5773521
+
+[11] 02/18/2021 14:04:55 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnWebSocketOpenRequest] - ConnectionID: 54135081; Message:Host: 192.168.0.11:8801
+Accept-Encoding: gzip, deflate
+User-Agent: IPWorks HTTP Component - www.nsoftware.com
+Upgrade: websocket
+Connection: Upgrade,Keep-Alive
+Sec-WebSocket-Key: MS1x59/7HB2RPJMI8HcImA==
+Sec-WebSocket-Version: 13
+Origin: null
+
+
+[11] 02/18/2021 14:04:55 INFO  [AutoInspexWindowsService.WebsocketserverMain_OnConnected] - Client Connected. ConnectionID: 54135081
+

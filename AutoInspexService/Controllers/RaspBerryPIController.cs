@@ -28,8 +28,10 @@ namespace AutoInspexService.Controllers
             try
             {
 
-                var path = HostingEnvironment.MapPath("~") + "AutoInspexCamerasDB.db";
+                var path = HostingEnvironment.MapPath("~") + "/AutoInspexCamerasDB.db";
                 var connstr = "Data Source=" + path + ";Version=3;";
+
+                log.Info(path);
 
                 var list = new List<PICameraStatus>();
                 using (IDbConnection cnn = new SQLiteConnection(connstr))
@@ -53,8 +55,10 @@ namespace AutoInspexService.Controllers
             try
             {
 
-                var path = HostingEnvironment.MapPath("~") + "AutoInspexCamerasDB.db";
+                var path = HostingEnvironment.MapPath("~") + "/AutoInspexCamerasDB.db";
                 var connstr = "Data Source=" + path + ";Version=3;";
+
+                log.Info(path);
 
                 var list = new List<PICamera>();
                 using (IDbConnection cnn = new SQLiteConnection(connstr))
@@ -77,7 +81,7 @@ namespace AutoInspexService.Controllers
         {
             try
             {
-                var path = HostingEnvironment.MapPath("~") + "AutoInspexCamerasDB.db";
+                var path = HostingEnvironment.MapPath("~") + "/AutoInspexCamerasDB.db";
                 var connstr = "Data Source=" + path + ";Version=3;";
 
                 using (IDbConnection cnn = new SQLiteConnection(connstr))
@@ -103,7 +107,7 @@ namespace AutoInspexService.Controllers
         {
             try
             {
-                var path = HostingEnvironment.MapPath("~") + "AutoInspexCamerasDB.db";
+                var path = HostingEnvironment.MapPath("~") + "/AutoInspexCamerasDB.db";
                 var connstr = "Data Source=" + path + ";Version=3;";
 
                 using (IDbConnection cnn = new SQLiteConnection(connstr))
@@ -127,7 +131,7 @@ namespace AutoInspexService.Controllers
         {
             try
             {
-                var path = HostingEnvironment.MapPath("~") + "AutoInspexCamerasDB.db";
+                var path = HostingEnvironment.MapPath("~") + "/AutoInspexCamerasDB.db";
                 var connstr = "Data Source=" + path + ";Version=3;";
 
                 using (IDbConnection cnn = new SQLiteConnection(connstr))
@@ -152,7 +156,7 @@ namespace AutoInspexService.Controllers
         {
             try
             {
-                var path = HostingEnvironment.MapPath("~") + "AutoInspexCamerasDB.db";
+                var path = HostingEnvironment.MapPath("~") + "/AutoInspexCamerasDB.db";
                 var connstr = "Data Source=" + path + ";Version=3;";
 
                 var HousingID = data["HousingID"] + "";
@@ -165,14 +169,14 @@ namespace AutoInspexService.Controllers
                 var SerialNumber = data["SerialNumber"] + "";
                 var Status = data["Status"] + "";
                 var AutoInspexID = data["AutoInspexID"] + "";
-                var RingPostion = data["RingPostion"] + "";
+                var RingPosition = data["RingPosition"] + "";
 
                 var picamera = FindCameraBySerialNumber(SerialNumber);
                 if (picamera != null)
                 {
                     using (IDbConnection cnn = new SQLiteConnection(connstr))
                     {
-                        string sql = string.Concat(new object[] { "update PICameras set HousingID='", HousingID, "',IPAddress='", IPAddress, "',LensID='", LensID, "',RingPostion='", RingPostion, "',SensorID='", SensorID, "',PiOSVersion='", PiOSVersion, "',OS_ID='", OS_ID, "',PiVersion='", PiVersion, "',TimeStamp='", DateTime.Now, "',Status='" + Status + "', AutoInspexID='" + AutoInspexID + "' where SerialNumber='", SerialNumber, "'" });
+                        string sql = string.Concat(new object[] { "update PICameras set HousingID='", HousingID, "',IPAddress='", IPAddress, "',LensID='", LensID, "',RingPosition='", RingPosition, "',SensorID='", SensorID, "',PiOSVersion='", PiOSVersion, "',OS_ID='", OS_ID, "',PiVersion='", PiVersion, "',TimeStamp='", DateTime.Now, "',Status='" + Status + "', AutoInspexID='" + AutoInspexID + "' where SerialNumber='", SerialNumber, "'" });
                         log.Info(sql);
                         var ret = cnn.Execute(sql);
                         if (ret > 0)
@@ -189,7 +193,7 @@ namespace AutoInspexService.Controllers
                 {
                     using (IDbConnection cnn = new SQLiteConnection(connstr))
                     {
-                        string sql = string.Concat(new object[] { "insert into PICameras (HousingID,IPAddress,SensorID,PiVersion,PiOSVersion,LensID,OS_ID,SerialNumber,Status,AutoInspexID,RingPostion) values(", "'" + HousingID + "',", "'" + IPAddress + "',", "'" + SensorID + "',", "'" + PiVersion + "',", "'" + PiOSVersion + "',", "'" + LensID + "',", "'" + OS_ID + "',", "'" + SerialNumber + "',", "'" + Status + "',", "'" + AutoInspexID + "','"+ RingPostion+"')" });
+                        string sql = string.Concat(new object[] { "insert into PICameras (HousingID,IPAddress,SensorID,PiVersion,PiOSVersion,LensID,OS_ID,SerialNumber,Status,AutoInspexID,RingPosition) values(", "'" + HousingID + "',", "'" + IPAddress + "',", "'" + SensorID + "',", "'" + PiVersion + "',", "'" + PiOSVersion + "',", "'" + LensID + "',", "'" + OS_ID + "',", "'" + SerialNumber + "',", "'" + Status + "',", "'" + AutoInspexID + "','"+ RingPosition + "')" });
                         log.Info(sql);
                         var ret = cnn.Execute(sql);
                         if (ret > 0)
@@ -217,7 +221,7 @@ namespace AutoInspexService.Controllers
         {
             try
             {
-                var path = HostingEnvironment.MapPath("~") + "AutoInspexCamerasDB.db";
+                var path = HostingEnvironment.MapPath("~") + "/AutoInspexCamerasDB.db";
                 var connstr = "Data Source=" + path + ";Version=3;";
 
                 var InstallerName = data["InstallerName"] + "";
@@ -282,7 +286,7 @@ namespace AutoInspexService.Controllers
         {
             try
             {
-                var path = HostingEnvironment.MapPath("~") + "AutoInspexCamerasDB.db";
+                var path = HostingEnvironment.MapPath("~") + "/AutoInspexCamerasDB.db";
                 var connstr = "Data Source=" + path + ";Version=3;";
 
                 using (IDbConnection cnn = new SQLiteConnection(connstr))

@@ -338,6 +338,15 @@ namespace AutoInspexClientWindowsService
             log.Info("Client to PI Connected. ConnectionID: " + e.Description);
         }
 
+        private Dictionary<string, object> ToJsonDict(object obj)
+        {
+            if (obj == null) return null;
+
+            var json = JsonConvert.SerializeObject(obj);
+            return JsonConvert.DeserializeObject<Dictionary<string, object>>(json);
+        }
+
+
         private void websocketclient_OnDataIn(object sender, nsoftware.IPWorksWS.WebsocketclientDataInEventArgs e)
         {
             try
@@ -371,52 +380,115 @@ namespace AutoInspexClientWindowsService
             WebsocketserverMain.SendText(e.ConnectionId, "hell you are connected.");
         }
 
+        private async Task InstallnewPI(JObject message)
+        {
+            try
+            {
+
+                //var message = new
+                //{
+                //    AutoInspexID = "90212-3-1-32-5",
+                //    InstallerName = "Keveb Tester",
+                //    RingPosition = "23",
+                //    InstallDate = DateTime.Now.ToShortDateString(),
+                //    SerialNumber = "eqerq24524524524",
+                //};
+                Dictionary<string, object> postData = ToJsonDict(message);
+
+                var AutoInspexWebServiceUrl = ConfigurationManager.AppSettings["AutoInspexWebServiceUrl"] + "";
+                var client = new RestClient(AutoInspexWebServiceUrl);
+                var request = new RestRequest("api/InstallPI4Camera", Method.POST);
+                request.RequestFormat = DataFormat.Json;
+                request.AddJsonBody(postData);
+
+                try
+                {
+                    var ret = await client.ExecuteAsync(request);
+                    if (ret.StatusCode != HttpStatusCode.OK)
+                    {
+                        log.Error(ret.ErrorMessage, ret.ErrorException);
+                    }
+                }
+                catch (Exception ext)
+                {
+                    log.Error(ext.Message, ext);
+                }
+
+            }
+            catch (Exception ext)
+            {
+                log.Error(ext.Message, ext);
+            }
+        }
+
+        private async Task saveData(JObject message)
+        {
+            try
+            {
+
+                //var message = new
+                //{
+                //    AutoInspexID = "90212-3-1-32-5",
+                //    SerialNumber = "qsw23452345",
+                //    HousingID = "234523",
+                //    LensID = "1",
+                //    SensorID = "1",
+                //    PiVersion = "Raspbian 15",
+                //    PiOSVersion = "PI 4",
+                //    OS_ID = "1",
+                //    IPAddress = "192.168.0.1",
+                //    Status = "Active"
+                //};
+                Dictionary<string, object> postData = ToJsonDict(message); ;
+
+                var AutoInspexWebServiceUrl = ConfigurationManager.AppSettings["AutoInspexWebServiceUrl"] + "";
+                var client = new RestClient(AutoInspexWebServiceUrl);
+                var request = new RestRequest("api/SavePIData", Method.POST);
+                request.RequestFormat = DataFormat.Json;
+                request.AddJsonBody(postData);
+
+                try
+                {
+                    var ret = await client.ExecuteAsync(request);
+                    if (ret.StatusCode != HttpStatusCode.OK)
+                    {
+                        log.Error(ret.ErrorMessage, ret.ErrorException);
+                    }
+                }
+                catch (Exception ext)
+                {
+                    log.Error(ext.Message, ext);
+                }
+
+            }
+            catch (Exception ext)
+            {
+                log.Error(ext.Message, ext);
+            }
+        }
+
         private async void WebsocketserverMain_OnDataIn(object sender, WebsocketserverDataInEventArgs ex)
         {
-            //try
-            //{
-            //    log.Info(ex.Text);
+            try
+            {
+                log.Info(ex.Text);
 
-            //    var message = new PICamera()
-            //    {
-            //        AutoInspexID = AutoInspexID,
-            //        SerialNumber = SerialNumber,
-            //        HousingID = HousingID,
-            //        LensID = LensID,
-            //        SensorID = SensorID,
-            //        PiVersion = PiVersion,
-            //        PiOSVersion = PiOSVersion,
-            //        OS_ID = OS_ID,
-            //        IPAddress = IPAddress,
-            //        Status = "Active",
-            //        AutoInspexID = "Active",
-            //    };
-
-            //    var AutoInspexWebServiceUrl = ConfigurationManager.AppSettings["AutoInspexWebServiceUrl"] + "";
-            //    var client = new RestClient(AutoInspexWebServiceUrl);
-            //    var request = new RestRequest("api/PICameras/UpdateStatus", Method.POST);
-            //    var jsonToSend = JsonConvert.SerializeObject(ex.Text);
-            //    request.AddParameter("application/json; charset=utf-8", jsonToSend, ParameterType.RequestBody);
-            //    request.RequestFormat = DataFormat.Json;
-
-            //    try
-            //    {
-            //       var ret = await client.ExecuteAsync(request);
-            //        if(ret.StatusCode!= HttpStatusCode.OK)
-            //        {
-            //            log.Error(ret.ErrorMessage,ret.ErrorException);
-            //        }
-            //    }
-            //    catch (Exception ext)
-            //    {
-            //        log.Error(ext.Message, ext);
-            //    }
-
-            //}
-            //catch (Exception ext)
-            //{
-            //    log.Error(ext.Message, ext);
-           // }
+                var dataObj = JObject.Parse(ex.Text);
+                var installerName = (string)dataObj["InstallerName"] + "";
+                var installDate = (string)dataObj["InstallerName"] + "";
+                if (installerName != "" && installDate != "")
+                {
+                  await InstallnewPI(dataObj);
+                }
+                else
+                {
+                   await saveData(dataObj);
+                }
+            }
+            catch (Exception ext)
+            {
+                log.Error(ext.Message, ext);
+            }
         }
 
         private void WebsocketserverMain_OnDisconnected(object sender, WebsocketserverDisconnectedEventArgs e)

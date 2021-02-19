@@ -13,7 +13,7 @@ $(document).ready(function () {
     var grid = $("#grid").kendoGrid({
         dataSource: {
             transport: {
-                read: "http://localhost:55657/api/PICameras"
+                read: "http://192.168.0.11/AutoPix/api/PICameras"
             },
             pageSize: 20
         },
